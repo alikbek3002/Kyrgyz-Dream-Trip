@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Kyrgyz Dream Trip — Journeys through the Tian Shan</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<style>
+:root {
+  /* Alpine (default) */
+  --bg: #f1ece1;
+  --paper: #ebe5d8;
+  --ink: #1a1814;
+  --ink-soft: #3a362e;
+  --muted: #6f6a5d;
+  --line: #1a181422;
+  --accent: #254a5c;
+  --accent-soft: #d9cfba;
+  --warn: #a84518;
+}
+[data-palette="felt"] {
+  --bg: #e8dfce;
+  --paper: #ddd1b8;
+  --ink: #241a12;
+  --ink-soft: #3d2d1e;
+  --muted: #7a6a52;
+  --line: #241a1230;
+  --accent: #8f3a12;
+  --accent-soft: #cfb994;
+  --warn: #8f3a12;
+}
+[data-palette="midnight"] {
+  --bg: #14171c;
+  --paper: #1c2026;
+  --ink: #eee6d3;
+  --ink-soft: #c8bda2;
+  --muted: #8a8573;
+  --line: #eee6d322;
+  --accent: #d4a24a;
+  --accent-soft: #2a2f38;
+  --warn: #d4a24a;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.serif-display { font-family: "DM Serif Display", "Source Serif 4", Georgia, serif; font-weight: 400; letter-spacing: -0.01em; }
+.mono { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+.cyr { font-family: "Source Serif 4", Georgia, serif; font-style: italic; color: var(--muted); }
+
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 40px; }
+.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
+.rule-thick { border: 0; border-top: 2px solid var(--ink); margin: 0; }
+
+/* ----- Masthead ----- */
+.masthead {
+  padding: 18px 0 14px;
+  border-bottom: 1px solid var(--line);
+}
+.masthead-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+}
+.masthead-left, .masthead-right { display: flex; gap: 20px; align-items: center; }
+.masthead-right { justify-content: flex-end; }
+.masthead .brand {
+  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.masthead .brand .amp { font-style: italic; color: var(--accent); }
+.nav-link { color: var(--ink); text-decoration: none; font-size: 13px; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+.nav-link:hover { border-bottom-color: var(--ink); }
+.lang-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 2px; overflow: hidden; font-size: 11px; font-family: "JetBrains Mono", monospace; letter-spacing: 0.08em; }
+.lang-toggle button { background: transparent; border: 0; padding: 5px 9px; color: var(--muted); cursor: pointer; font: inherit; text-transform: uppercase; }
+.lang-toggle button.active { background: var(--ink); color: var(--bg); }
+
+.issue-line {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 0 0;
+}
+.issue-line .mono { color: var(--muted); }
+
+/* ----- Hero ----- */
+.hero { padding: 36px 0 56px; border-bottom: 1px solid var(--line); }
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 48px;
+  align-items: end;
+}
+.hero h1.serif-display {
+  font-size: clamp(56px, 7.4vw, 108px);
+  line-height: 0.94;
+  margin: 0 0 24px;
+  letter-spacing: -0.02em;
+}
+.hero h1 .italic { font-style: italic; color: var(--accent); }
+.hero h1 .break { display: block; }
+.hero .lede {
+  font-size: 19px;
+  line-height: 1.55;
+  max-width: 40ch;
+  color: var(--ink-soft);
+  margin: 0;
+  column-count: 1;
+}
+.hero .lede .cyr { display: block; font-size: 15px; margin-top: 6px; }
+.hero-meta {
+  display: flex; gap: 28px; margin-top: 22px;
+  color: var(--muted);
+}
+.hero-meta > div { display: flex; flex-direction: column; gap: 2px; }
+.hero-meta .v { font-family: "DM Serif Display", serif; font-size: 22px; color: var(--ink); }
+
+/* Hero photo placeholder */
+.hero-photo {
+  position: relative;
+  aspect-ratio: 4/5;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.placeholder-stripes {
+  position: absolute; inset: 0;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--paper) 0 14px,
+    var(--accent-soft) 14px 15px
+  );
+}
+.placeholder-label {
+  position: absolute; left: 12px; bottom: 12px;
+  background: var(--bg); color: var(--ink);
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
+  max-width: calc(100% - 24px);
+}
+.placeholder-label .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--warn); margin-right: 6px; vertical-align: middle; }
+
+.hero-caption {
+  margin-top: 10px; display: flex; justify-content: space-between; color: var(--muted);
+  border-top: 1px solid var(--line); padding-top: 8px;
+}
+
+/* ----- Search bar ----- */
+.search-bar {
+  margin-top: 36px;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr auto;
+  align-items: stretch;
+}
+.search-bar > div { padding: 14px 18px; border-right: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; }
+.search-bar > div:last-child { border-right: 0; padding: 0; }
+.search-bar label { color: var(--muted); }
+.search-bar input, .search-bar select {
+  background: transparent; border: 0; outline: 0; color: var(--ink);
+  font-family: "Source Serif 4", serif; font-size: 17px; padding: 0;
+}
+.search-bar input::placeholder { color: var(--muted); font-style: italic; }
+.search-btn {
+  background: var(--ink); color: var(--bg);
+  border: 0; cursor: pointer;
+  font-family: "DM Serif Display", serif; font-size: 20px;
+  padding: 0 40px;
+  letter-spacing: 0.01em;
+}
+.search-btn:hover { background: var(--accent); }
+
+/* ----- Section headers ----- */
+.section-head {
+  display: grid; grid-template-columns: auto 1fr auto;
+  align-items: baseline; gap: 24px;
+  padding: 48px 0 20px;
+}
+.section-head .num { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--muted); letter-spacing: 0.1em; }
+.section-head h2 { font-family: "DM Serif Display", serif; font-size: 44px; margin: 0; letter-spacing: -0.01em; }
+.section-head h2 .italic { font-style: italic; color: var(--accent); }
+.section-head .right { color: var(--muted); }
+.section-head .line { grid-column: 1 / -1; border-top: 2px solid var(--ink); margin-top: 12px; }
+
+/* ----- Tour cards (Stacked default) ----- */
+.tours { padding-bottom: 60px; }
+.tours-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+.card {
+  position: relative;
+  border-right: 1px solid var(--line);
+  padding: 28px 24px 32px;
+  display: flex; flex-direction: column;
+  min-height: 520px;
+}
+.card:last-child { border-right: 0; }
+.card-num { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 14px; display: flex; justify-content: space-between; }
+.card-photo {
+  position: relative; aspect-ratio: 5/4; background: var(--paper);
+  border: 1px solid var(--line); overflow: hidden;
+  margin-bottom: 18px;
+}
+.card h3 {
+  font-family: "DM Serif Display", serif; font-weight: 400;
+  font-size: 30px; line-height: 1.05; margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+.card h3 .italic { font-style: italic; color: var(--accent); }
+.card .cyr-title { display: block; font-size: 15px; color: var(--muted); font-style: italic; margin-bottom: 12px; }
+.card .deck { font-size: 16px; color: var(--ink-soft); line-height: 1.5; margin: 0 0 18px; max-width: 36ch; }
+.card .specs {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  margin-top: auto;
+}
+.card .specs div { display: flex; flex-direction: column; gap: 2px; }
+.card .specs .k { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
+.card .specs .v { font-family: "DM Serif Display", serif; font-size: 17px; }
+
+/* Hover reveal */
+.card-reveal {
+  position: absolute; inset: 0;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 32px 28px;
+  display: flex; flex-direction: column;
+  opacity: 0; pointer-events: none;
+  transition: opacity 260ms ease;
+}
+.card:hover .card-reveal { opacity: 1; pointer-events: auto; }
+.card-reveal .mono { color: rgba(255,255,255,0.55); }
+.card-reveal .pull {
+  font-family: "DM Serif Display", serif; font-style: italic;
+  font-size: 26px; line-height: 1.25; margin: 18px 0 14px;
+  max-width: 28ch;
+}
+.card-reveal .pull .mark { color: var(--accent-soft); }
+.card-reveal .attrib { color: rgba(255,255,255,0.65); font-size: 13px; margin-bottom: auto; }
+.card-reveal .itin { display: grid; gap: 6px; margin: 16px 0; }
+.card-reveal .itin .row { display: grid; grid-template-columns: 50px 1fr; gap: 10px; font-size: 14px; color: rgba(255,255,255,0.85); border-top: 1px solid rgba(255,255,255,0.12); padding-top: 6px; }
+.card-reveal .itin .row .d { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); padding-top: 3px; }
+.card-reveal .book {
+  display: inline-flex; justify-content: space-between; align-items: center;
+  padding: 12px 16px; border: 1px solid rgba(255,255,255,0.3);
+  color: var(--bg); text-decoration: none;
+  font-family: "DM Serif Display", serif; font-size: 17px;
+}
+.card-reveal .book:hover { background: var(--bg); color: var(--ink); }
+.card-reveal .book .arr { font-family: "JetBrains Mono", monospace; font-size: 12px; }
+
+/* Layout variant: Magazine */
+[data-layout="magazine"] .tours-grid { grid-template-columns: 1.3fr 1fr 1fr; }
+[data-layout="magazine"] .card { min-height: 600px; }
+[data-layout="magazine"] .card:first-child { padding: 36px 32px 36px; }
+[data-layout="magazine"] .card:first-child .card-photo { aspect-ratio: 4/5; }
+[data-layout="magazine"] .card:first-child h3 { font-size: 44px; }
+[data-layout="magazine"] .card:first-child .deck { font-size: 18px; max-width: 40ch; }
+
+/* Layout variant: Postcard */
+[data-layout="postcard"] .tours-grid { gap: 20px; border-top: 0; padding-top: 8px; grid-template-columns: repeat(3, 1fr); }
+[data-layout="postcard"] .card {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-right: 1px solid var(--line);
+  padding: 18px;
+  min-height: auto;
+}
+[data-layout="postcard"] .card .card-photo { aspect-ratio: 4/3; margin-bottom: 14px; }
+[data-layout="postcard"] .card h3 { font-size: 24px; }
+[data-layout="postcard"] .card .specs { grid-template-columns: repeat(4, 1fr); }
+
+/* ----- Why us ----- */
+.why { padding: 40px 0 60px; border-top: 1px solid var(--line); margin-top: 40px; }
+.why-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 48px; align-items: start; }
+.why h2 { font-family: "DM Serif Display", serif; font-size: 56px; line-height: 0.98; margin: 0; letter-spacing: -0.01em; }
+.why h2 .italic { font-style: italic; color: var(--accent); }
+.why .pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 36px 40px; }
+.why .pillar h4 { font-family: "DM Serif Display", serif; font-weight: 400; font-size: 22px; margin: 0 0 4px; }
+.why .pillar .cyr-sub { display: block; color: var(--muted); font-style: italic; font-size: 14px; margin-bottom: 10px; }
+.why .pillar p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+.why .pillar .n { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 10px; display: block; }
+.why-divider { border-top: 1px solid var(--line); margin: 24px 0; grid-column: 1 / -1; }
+
+/* ----- Guides ----- */
+.guides { padding: 40px 0 60px; border-top: 1px solid var(--line); }
+.guides-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+.guide .portrait { aspect-ratio: 3/4; background: var(--paper); border: 1px solid var(--line); position: relative; overflow: hidden; }
+.guide h4 { font-family: "DM Serif Display", serif; font-weight: 400; font-size: 22px; margin: 14px 0 2px; }
+.guide .cyr-name { color: var(--muted); font-style: italic; font-size: 13px; }
+.guide .role { font-family: "JetBrains Mono", monospace; font-size: 10px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 8px; display: block; }
+.guide p { font-size: 14px; color: var(--ink-soft); margin: 8px 0 0; }
+
+/* ----- Journal ----- */
+.journal { padding: 40px 0 60px; border-top: 1px solid var(--line); }
+.journal-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
+.article .photo { aspect-ratio: 3/2; background: var(--paper); border: 1px solid var(--line); position: relative; overflow: hidden; margin-bottom: 14px; }
+.article .kicker { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase; }
+.article h3 { font-family: "DM Serif Display", serif; font-weight: 400; font-size: 26px; line-height: 1.15; margin: 8px 0 8px; }
+.article .byline { color: var(--muted); font-size: 13px; font-style: italic; }
+.article p { color: var(--ink-soft); font-size: 15px; margin: 8px 0 0; }
+.journal .article:first-child .photo { aspect-ratio: 5/4; }
+.journal .article:first-child h3 { font-size: 34px; }
+
+/* ----- Footer ----- */
+footer { border-top: 2px solid var(--ink); padding: 40px 0 30px; margin-top: 40px; }
+.foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; align-items: start; }
+.foot-grid h5 { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; }
+.foot-grid a { display: block; color: var(--ink); text-decoration: none; padding: 4px 0; font-size: 15px; }
+.foot-grid a:hover { color: var(--accent); }
+.foot-brand .logo { font-family: "DM Serif Display", serif; font-size: 34px; letter-spacing: -0.01em; margin-bottom: 12px; }
+.foot-brand p { color: var(--ink-soft); font-size: 15px; max-width: 38ch; margin: 0 0 16px; }
+.foot-bottom { display: flex; justify-content: space-between; padding-top: 28px; border-top: 1px solid var(--line); margin-top: 32px; color: var(--muted); }
+
+/* ----- Tweaks panel ----- */
+.tweaks-panel {
+  position: fixed; bottom: 16px; right: 16px; z-index: 50;
+  background: var(--paper); border: 1px solid var(--ink);
+  padding: 14px 16px;
+  width: 260px;
+  font-family: "Source Serif 4", serif;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  display: none;
+}
+.tweaks-panel.on { display: block; }
+.tweaks-panel h5 { font-family: "DM Serif Display", serif; font-size: 18px; margin: 0 0 10px; font-weight: 400; }
+.tweaks-panel .group { margin-bottom: 12px; }
+.tweaks-panel .label { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.tweak-options { display: flex; gap: 6px; }
+.tweak-options button {
+  flex: 1; padding: 6px 8px;
+  background: transparent; color: var(--ink);
+  border: 1px solid var(--line);
+  font: inherit; font-size: 12px; cursor: pointer;
+}
+.tweak-options button.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+/* Swatch row */
+.swatch-row { display: flex; gap: 6px; }
+.swatch-row button { flex: 1; height: 32px; border: 1px solid var(--line); cursor: pointer; position: relative; padding: 0; }
+.swatch-row button.active { outline: 2px solid var(--ink); outline-offset: 2px; }
+.swatch-row button span { display: block; height: 100%; }
+.sw-alpine { background: linear-gradient(to right, #f1ece1 0% 40%, #254a5c 40% 75%, #1a1814 75% 100%); }
+.sw-felt { background: linear-gradient(to right, #e8dfce 0% 40%, #8f3a12 40% 75%, #241a12 75% 100%); }
+.sw-midnight { background: linear-gradient(to right, #14171c 0% 40%, #d4a24a 40% 75%, #eee6d3 75% 100%); }
+
+/* Filter pills */
+.filter-row {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin-top: 14px; margin-bottom: 14px;
+}
+.pill {
+  border: 1px solid var(--line);
+  background: transparent;
+  padding: 6px 12px;
+  font: inherit; font-size: 13px;
+  cursor: pointer;
+  color: var(--ink);
+  border-radius: 40px;
+}
+.pill.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.pill:hover:not(.active) { border-color: var(--ink); }
+.empty-note { color: var(--muted); font-style: italic; padding: 40px 0; text-align: center; grid-column: 1 / -1; }
+
+/* ----- Tweaks toggle button ----- */
+.tweaks-toggle {
+  position: fixed; bottom: 16px; right: 16px; z-index: 51;
+  background: var(--ink); color: var(--bg);
+  border: 0; cursor: pointer;
+  font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 10px 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.tweaks-toggle:hover { background: var(--accent); }
+.tweaks-panel.on ~ .tweaks-toggle,
+.tweaks-panel.on + .tweaks-toggle { right: 292px; }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel" data-presets="env,react">
+const { useState, useEffect, useMemo } = React;
+
+const TWEAK_DEFAULTS = {
+  "palette": "alpine",
+  "layout": "stacked"
+};
+
+const TOURS = [
+  {
+    id: "song-kul",
+    num: "No. 01",
+    region: "Naryn Oblast",
+    title_en: ["Song-Kul", { italic: " after dusk" }],
+    title_ru: "Сон-Куль — после заката",
+    deck: "Seven nights in a jailoo camp among herders who return to the lake every summer. Milk-tea at dawn, kok-boru at golden hour, stars without a single lamp.",
+    tag: "Nomad life",
+    duration: "7 nights",
+    season: "Jun — Sep",
+    altitude: "3016 m",
+    from: "$1,840",
+    photo: "PHOTO — Yurts on Song-Kul shore, dawn, wide",
+    pull: ["“You stop measuring time in hours. You measure it in how far the ", { mark: "horses have wandered" }, ".”"],
+    attrib: "— Aigerim K., guide since 2014",
+    itin: [
+      ["D01", "Bishkek → Kochkor, meet the Janybekov family"],
+      ["D02", "Drive over 33 Parrots pass to the jailoo"],
+      ["D03", "Eagle hunter demo + ride to north shore"],
+      ["D04", "Rest day, yurt craft with Nurgul"],
+      ["D05", "Horse trek to the petroglyph field"],
+      ["D06", "Farewell feast, kumys ceremony"],
+      ["D07", "Return via Ming-Kush"],
+    ]
+  },
+  {
+    id: "ala-archa",
+    num: "No. 02",
+    region: "Chüy & Issyk-Kul",
+    title_en: [{ italic: "Ala-Archa" }, " to Karakol"],
+    title_ru: "Ала-Арча — Каракол",
+    deck: "A short, punchy itinerary for travelers with one week: glacier day-hikes above Bishkek, then east along the lake to Karakol for the Sunday animal bazaar.",
+    tag: "Trekking",
+    duration: "5 nights",
+    season: "May — Oct",
+    altitude: "4895 m",
+    from: "$1,210",
+    photo: "PHOTO — Ratsek hut with Korona peak behind",
+    pull: ["“The only country where a hiking trail ends in a ", { mark: "bowl of fresh ashlan-fu" }, ".”"],
+    attrib: "— Daniyar M., lead guide",
+    itin: [
+      ["D01", "Arrive Bishkek, orientation walk"],
+      ["D02", "Ala-Archa — hike to Ak-Sai glacier"],
+      ["D03", "Drive Issyk-Kul south shore, Bokonbaevo"],
+      ["D04", "Skazka canyon + Karakol arrival"],
+      ["D05", "Sunday bazaar, Przhevalsky memorial"],
+      ["D06", "Return via Balykchy"],
+    ]
+  },
+  {
+    id: "eagle",
+    num: "No. 03",
+    region: "Bokonbaevo, Issyk-Kul",
+    title_en: ["Winter", { italic: " with the eagle hunters" }],
+    title_ru: "Зима с беркутчи",
+    deck: "Nine days alongside two fourth-generation berkutchi as they hunt fox across the snowline. Small group — four travelers, no more. Not a demonstration.",
+    tag: "Heritage",
+    duration: "9 nights",
+    season: "Dec — Feb",
+    altitude: "2100 m",
+    from: "$3,460",
+    photo: "PHOTO — Berkutchi on horseback, golden eagle, snow",
+    pull: ["“The eagle returns to the glove ", { mark: "because you kept your word" }, ", not because you fed her.”"],
+    attrib: "— Talgarbek I., berkutchi",
+    itin: [
+      ["D01", "Bishkek → Bokonbaevo, meet the family"],
+      ["D02", "Eagle care, felt-making with Mairam"],
+      ["D03", "Morning hunt — foothills above the village"],
+      ["D04", "Rest, visit a shyrdak workshop"],
+      ["D05", "Horseback out to a highland camp"],
+      ["D06", "Two-day hunt loop in the Terskey range"],
+      ["D08", "Return via Barskoon gorge"],
+      ["D09", "Bishkek, closing dinner"],
+    ]
+  },
+];
+
+const FILTERS = [
+  { id: "all", label_en: "All journeys", label_ru: "Все маршруты" },
+  { id: "Nomad life", label_en: "Nomad life", label_ru: "Кочевой быт" },
+  { id: "Trekking", label_en: "Trekking", label_ru: "Треккинг" },
+  { id: "Heritage", label_en: "Heritage", label_ru: "Традиции" },
+];
+
+function renderRich(parts) {
+  return parts.map((p, i) => {
+    if (typeof p === 'string') return <span key={i}>{p}</span>;
+    if (p.italic) return <span key={i} className="italic">{p.italic}</span>;
+    if (p.mark) return <span key={i} className="mark">{p.mark}</span>;
+    return null;
+  });
+}
+
+function Placeholder({ label }) {
+  return (
+    <>
+      <div className="placeholder-stripes" />
+      <div className="placeholder-label"><span className="dot" /> {label}</div>
+    </>
+  );
+}
+
+function Masthead({ lang, setLang }) {
+  return (
+    <header className="masthead">
+      <div className="wrap">
+        <div className="masthead-row">
+          <nav className="masthead-left">
+            <a className="nav-link" href="#journeys">{lang === 'en' ? 'Journeys' : 'Маршруты'}</a>
+            <a className="nav-link" href="#why">{lang === 'en' ? 'Our approach' : 'Подход'}</a>
+            <a className="nav-link" href="#guides">{lang === 'en' ? 'Guides' : 'Гиды'}</a>
+            <a className="nav-link" href="#journal">{lang === 'en' ? 'Journal' : 'Журнал'}</a>
+          </nav>
+          <div className="brand">Kyrgyz <span className="amp">Dream</span> Trip</div>
+          <div className="masthead-right">
+            <span className="mono" style={{ color: 'var(--muted)' }}>EST. 2016 · BISHKEK</span>
+            <div className="lang-toggle" role="tablist">
+              <button className={lang==='en'?'active':''} onClick={()=>setLang('en')}>EN</button>
+              <button className={lang==='ru'?'active':''} onClick={()=>setLang('ru')}>РУ</button>
+            </div>
+          </div>
+        </div>
+        <div className="issue-line">
+          <span className="mono">Vol. IX · Issue 02 · Spring / Summer 2026</span>
+          <span className="mono">{lang === 'en' ? '42.87° N / 74.60° E — Bishkek' : '42.87° с.ш. / 74.60° в.д. — Бишкек'}</span>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+function Hero({ lang, query, setQuery, filter, setFilter, duration, setDuration, season, setSeason }) {
+  return (
+    <section className="hero">
+      <div className="wrap">
+        <div className="hero-grid">
+          <div>
+            <h1 className="serif-display">
+              {lang === 'en' ? (
+                <>
+                  <span className="break">Slow journeys</span>
+                  <span className="break">through the <span className="italic">Tian Shan</span>,</span>
+                  <span className="break">told by people</span>
+                  <span className="break">who live there.</span>
+                </>
+              ) : (
+                <>
+                  <span className="break">Неспешные</span>
+                  <span className="break">путешествия</span>
+                  <span className="break">по <span className="italic">Тянь-Шаню</span>,</span>
+                  <span className="break">глазами местных.</span>
+                </>
+              )}
+            </h1>
+            <p className="lede">
+              {lang === 'en'
+                ? <>We plan fewer trips than we could. Every itinerary is built around a household, a valley, or a craft — and we cap our groups at eight travelers so the family feels like a family, not a stage.</>
+                : <>Мы делаем меньше туров, чем могли бы. Каждый маршрут строится вокруг семьи, долины или ремесла — и мы ограничиваем группу восьмью путешественниками, чтобы дом оставался домом, а не сценой.</>}
+              <span className="cyr">{lang === 'en' ? '— Малые группы. Настоящие люди. Один повар на двоих.' : '— Small groups. Real people. One cook for every two guests.'}</span>
+            </p>
+            <div className="hero-meta">
+              <div><span className="mono">JOURNEYS</span><span className="v">23</span></div>
+              <div><span className="mono">GUIDES</span><span className="v">14</span></div>
+              <div><span className="mono">GROUPS CAP</span><span className="v">8 max</span></div>
+              <div><span className="mono">RETURN RATE</span><span className="v">38%</span></div>
+            </div>
+          </div>
+          <figure style={{ margin: 0 }}>
+            <div className="hero-photo">
+              <Placeholder label="PHOTO — Shepherd & horse, Suusamyr valley, wide shot, golden hour" />
+            </div>
+            <figcaption className="hero-caption mono">
+              <span>Fig. 01 — Suusamyr, late August</span>
+              <span>Photographed by A. Osmonaliev</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        {/* Search */}
+        <div className="search-bar" id="journeys">
+          <div>
+            <label className="mono">{lang==='en' ? 'Destination or keyword' : 'Место или ключевое слово'}</label>
+            <input
+              value={query}
+              onChange={e=>setQuery(e.target.value)}
+              placeholder={lang==='en' ? 'e.g. Song-Kul, eagle, yurt…' : 'напр. Сон-Куль, беркут…'}
+            />
+          </div>
+          <div>
+            <label className="mono">{lang==='en' ? 'Duration' : 'Длительность'}</label>
+            <select value={duration} onChange={e=>setDuration(e.target.value)}>
+              <option value="any">{lang==='en' ? 'Any length' : 'Любая'}</option>
+              <option value="short">{lang==='en' ? '≤ 5 nights' : 'до 5 ночей'}</option>
+              <option value="medium">{lang==='en' ? '6 – 8 nights' : '6 – 8 ночей'}</option>
+              <option value="long">{lang==='en' ? '9+ nights' : '9+ ночей'}</option>
+            </select>
+          </div>
+          <div>
+            <label className="mono">{lang==='en' ? 'Season' : 'Сезон'}</label>
+            <select value={season} onChange={e=>setSeason(e.target.value)}>
+              <option value="any">{lang==='en' ? 'Any season' : 'Любой'}</option>
+              <option value="summer">{lang==='en' ? 'Summer' : 'Лето'}</option>
+              <option value="winter">{lang==='en' ? 'Winter' : 'Зима'}</option>
+              <option value="shoulder">{lang==='en' ? 'Shoulder season' : 'Межсезонье'}</option>
+            </select>
+          </div>
+          <button className="search-btn">{lang==='en' ? 'Find a journey' : 'Найти маршрут'} →</button>
+        </div>
+
+        <div className="filter-row">
+          {FILTERS.map(f => (
+            <button
+              key={f.id}
+              className={'pill ' + (filter === f.id ? 'active' : '')}
+              onClick={()=>setFilter(f.id)}
+            >
+              {lang==='en' ? f.label_en : f.label_ru}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TourCard({ t, lang }) {
+  return (
+    <article className="card">
+      <div className="card-num">
+        <span>{t.num}</span>
+        <span>{t.region}</span>
+      </div>
+      <div className="card-photo">
+        <Placeholder label={t.photo} />
+      </div>
+      <h3>{renderRich(t.title_en)}</h3>
+      <span className="cyr-title">{t.title_ru}</span>
+      <p className="deck">{t.deck}</p>
+      <div className="specs">
+        <div><span className="k">{lang==='en'?'Duration':'Дней'}</span><span className="v">{t.duration}</span></div>
+        <div><span className="k">{lang==='en'?'Season':'Сезон'}</span><span className="v">{t.season}</span></div>
+        <div><span className="k">{lang==='en'?'Max altitude':'Выс. макс.'}</span><span className="v">{t.altitude}</span></div>
+        <div><span className="k">{lang==='en'?'From':'От'}</span><span className="v">{t.from}</span></div>
+      </div>
+
+      <div className="card-reveal">
+        <span className="mono">{t.num} — {t.tag}</span>
+        <blockquote className="pull">{renderRich(t.pull)}</blockquote>
+        <div className="attrib">{t.attrib}</div>
+        <div className="itin">
+          {t.itin.map(([d, txt], i) => (
+            <div className="row" key={i}><span className="d">{d}</span><span>{txt}</span></div>
+          ))}
+        </div>
+        <a className="book" href="#">
+          <span>{lang==='en'?'Hold a place':'Забронировать'}</span>
+          <span className="arr">→</span>
+        </a>
+      </div>
+    </article>
+  );
+}
+
+function Tours({ lang, query, filter, duration, season }) {
+  const filtered = useMemo(() => TOURS.filter(t => {
+    const q = query.trim().toLowerCase();
+    if (q) {
+      const hay = (t.title_ru + ' ' + JSON.stringify(t.title_en) + ' ' + t.deck + ' ' + t.tag + ' ' + t.region).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (filter !== 'all' && t.tag !== filter) return false;
+    if (duration !== 'any') {
+      const nights = parseInt(t.duration);
+      if (duration === 'short' && nights > 5) return false;
+      if (duration === 'medium' && (nights < 6 || nights > 8)) return false;
+      if (duration === 'long' && nights < 9) return false;
+    }
+    if (season !== 'any') {
+      if (season === 'summer' && !/Jun|Jul|Aug|Sep|May/.test(t.season)) return false;
+      if (season === 'winter' && !/Dec|Jan|Feb/.test(t.season)) return false;
+      if (season === 'shoulder' && !/Apr|Oct|Mar|Nov/.test(t.season)) return false;
+    }
+    return true;
+  }), [query, filter, duration, season]);
+
+  return (
+    <section className="tours">
+      <div className="wrap">
+        <div className="section-head">
+          <span className="num">§ 01</span>
+          <h2>{lang==='en' ? <>The <span className="italic">journeys</span>, spring '26</> : <>Маршруты, <span className="italic">весна '26</span></>}</h2>
+          <span className="mono right">{filtered.length} / {TOURS.length} {lang==='en'?'shown':'показано'}</span>
+          <div className="line" />
+        </div>
+        <div className="tours-grid">
+          {filtered.length === 0 ? (
+            <div className="empty-note">
+              {lang==='en'
+                ? 'No journeys match that search. Try clearing a filter — we keep this catalog intentionally small.'
+                : 'Ничего не найдено. Попробуйте сбросить фильтры — наш каталог намеренно небольшой.'}
+            </div>
+          ) : filtered.map((t, i) => <TourCard key={t.id} t={t} lang={lang} idx={i} />)}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function WhyUs({ lang }) {
+  const pillars = [
+    {
+      n: "I",
+      en_h: "We pay guides by the day, not the head.",
+      ru_h: "Гидам платим по дням, а не по людям.",
+      en_p: "Our lead guides earn a predictable salary across the season, so a rainy day doesn't cost them anything. Tips go straight to the host households.",
+      ru_p: "Ведущие гиды получают зарплату за сезон, а чаевые идут напрямую принимающим семьям."
+    },
+    {
+      n: "II",
+      en_h: "Groups are capped at eight. No exceptions.",
+      ru_h: "Группа не более восьми. Без исключений.",
+      en_p: "A yurt sleeps eight with dignity. Past that, someone ends up on the floor or the family eats separately — both of which we refuse.",
+      ru_p: "В юрте достойно помещаются восемь. Больше — кто-то спит на полу, а семья ест отдельно."
+    },
+    {
+      n: "III",
+      en_h: "Every itinerary has a rest day.",
+      ru_h: "В каждом маршруте есть день отдыха.",
+      en_p: "Not a bonus hike. A real day where nothing is scheduled and the guesthouse has a kitchen you're welcome to use.",
+      ru_p: "Настоящий день, когда ничего не запланировано, а на кухне вас ждут."
+    },
+    {
+      n: "IV",
+      en_h: "1.5% of each booking funds pasture repair.",
+      ru_h: "1,5% с каждого бронирования — на пастбища.",
+      en_p: "We contribute to the Jaichy Union's overgrazing recovery program in the Suusamyr and Arpa valleys. It's small. It's consistent.",
+      ru_p: "Мы поддерживаем программу восстановления пастбищ в долинах Суусамыр и Арпа."
+    },
+  ];
+  return (
+    <section className="why" id="why">
+      <div className="wrap">
+        <div className="why-grid">
+          <div>
+            <span className="mono" style={{ color: 'var(--muted)' }}>§ 02 — OUR APPROACH</span>
+            <h2 style={{ marginTop: 12 }}>
+              {lang==='en' ? <>Four promises we <span className="italic">refuse</span> to break.</> : <>Четыре обещания, которые <span className="italic">мы не нарушаем</span>.</>}
+            </h2>
+          </div>
+          <div className="pillars">
+            {pillars.map(p => (
+              <div className="pillar" key={p.n}>
+                <span className="n">§ {p.n}</span>
+                <h4>{lang==='en' ? p.en_h : p.ru_h}</h4>
+                <span className="cyr-sub">{lang==='en' ? p.ru_h : p.en_h}</span>
+                <p>{lang==='en' ? p.en_p : p.ru_p}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Guides({ lang }) {
+  const guides = [
+    { en: "Aigerim K.", ru: "Айгерим К.", role: "Lead guide, Naryn", p_en: "Born in Kochkor. Speaks Kyrgyz, Russian, English. Leads all Song-Kul departures.", p_ru: "Родом из Кочкора. Ведёт все выезды на Сон-Куль.", photo: "PHOTO — Guide portrait, Aigerim, natural light" },
+    { en: "Daniyar M.", ru: "Данияр М.", role: "Mountain guide", p_en: "UIAGM-certified. Twelve seasons in the Ala-Archa range, zero evacuations.", p_ru: "Сертификат UIAGM. 12 сезонов в Ала-Арче без эвакуаций.", photo: "PHOTO — Daniyar on ridge, medium" },
+    { en: "Talgarbek I.", ru: "Талгарбек И.", role: "Berkutchi, Bokonbaevo", p_en: "Fourth-generation eagle hunter. Hosts the winter program with his wife Mairam.", p_ru: "Беркутчи в четвёртом поколении. Ведёт зимний маршрут.", photo: "PHOTO — Talgarbek with eagle" },
+    { en: "Nurgul T.", ru: "Нургуль Т.", role: "Craft host, Kochkor", p_en: "Runs the shyrdak felt cooperative travelers visit on day four of the Song-Kul journey.", p_ru: "Возглавляет кооператив по шырдаку в Кочкоре.", photo: "PHOTO — Nurgul at loom" },
+  ];
+  return (
+    <section className="guides" id="guides">
+      <div className="wrap">
+        <div className="section-head">
+          <span className="num">§ 03</span>
+          <h2>{lang==='en' ? <>The <span className="italic">people</span> you travel with</> : <><span className="italic">Люди</span>, с которыми вы едете</>}</h2>
+          <span className="mono right">{lang==='en' ? 'Fourteen guides, four featured' : 'Четырнадцать гидов'}</span>
+          <div className="line" />
+        </div>
+        <div className="guides-grid">
+          {guides.map((g, i) => (
+            <div className="guide" key={i}>
+              <div className="portrait"><Placeholder label={g.photo} /></div>
+              <h4>{lang==='en' ? g.en : g.ru}</h4>
+              <div className="cyr-name">{lang==='en' ? g.ru : g.en}</div>
+              <span className="role">{g.role}</span>
+              <p>{lang==='en' ? g.p_en : g.p_ru}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Journal({ lang }) {
+  const articles = [
+    {
+      kicker: lang==='en' ? 'Field note · 6 min read' : 'Заметка · 6 мин',
+      h_en: "Why we stopped offering the one-day Song-Kul add-on",
+      h_ru: "Почему мы отказались от однодневного Сон-Куля",
+      by_en: "By Aigerim K. · March 2026",
+      by_ru: "Айгерим К. · Март 2026",
+      p_en: "Three hours each way for ninety minutes at the lake is not a visit — it's a photograph. Here's what we offer instead, and what we learned from the families.",
+      p_ru: "Три часа туда, три обратно, полтора часа у озера — это не визит, это фото. Что мы предлагаем вместо и что поняли от семей.",
+      photo: "PHOTO — Song-Kul road at dusk"
+    },
+    {
+      kicker: lang==='en' ? 'Recipe · 3 min read' : 'Рецепт · 3 мин',
+      h_en: "Beshbarmak, the way Nurgul's mother taught her",
+      h_ru: "Бешбармак — так готовит мама Нургуль",
+      by_en: "By the kitchen, Kochkor",
+      by_ru: "Кухня в Кочкоре",
+      p_en: "Noodles wider than your thumb, broth skimmed three times, and a lamb raised by a neighbor.",
+      p_ru: "Лапша шире пальца, бульон, снятый трижды, и барашек от соседа.",
+      photo: "PHOTO — Hands rolling dough"
+    },
+    {
+      kicker: lang==='en' ? 'Gear · 4 min read' : 'Снаряжение · 4 мин',
+      h_en: "What we actually pack for the September departures",
+      h_ru: "Что мы реально берём в сентябрьские выезды",
+      by_en: "By Daniyar M.",
+      by_ru: "Данияр М.",
+      p_en: "A guide's packing list. No affiliate links — we don't take them.",
+      p_ru: "Список вещей гида. Без партнёрских ссылок.",
+      photo: "PHOTO — Flat-lay of gear on felt"
+    },
+  ];
+  return (
+    <section className="journal" id="journal">
+      <div className="wrap">
+        <div className="section-head">
+          <span className="num">§ 04</span>
+          <h2>{lang==='en' ? <>From the <span className="italic">journal</span></> : <>Из <span className="italic">журнала</span></>}</h2>
+          <span className="mono right">{lang==='en' ? 'Updated weekly' : 'Обновляется еженедельно'}</span>
+          <div className="line" />
+        </div>
+        <div className="journal-grid">
+          {articles.map((a, i) => (
+            <article className="article" key={i}>
+              <div className="photo"><Placeholder label={a.photo} /></div>
+              <span className="kicker">{a.kicker}</span>
+              <h3>{lang==='en' ? a.h_en : a.h_ru}</h3>
+              <span className="byline">{lang==='en' ? a.by_en : a.by_ru}</span>
+              <p>{lang==='en' ? a.p_en : a.p_ru}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Footer({ lang }) {
+  return (
+    <footer>
+      <div className="wrap">
+        <div className="foot-grid">
+          <div className="foot-brand">
+            <div className="logo">Kyrgyz <span style={{ fontStyle:'italic', color:'var(--accent)' }}>Dream</span> Trip</div>
+            <p>{lang==='en'
+              ? 'A small tour outfit from Bishkek. We build journeys we would take ourselves, with people we would invite home.'
+              : 'Небольшое турагентство из Бишкека. Мы делаем маршруты, в которые сами бы поехали, с людьми, которых пригласили бы домой.'}</p>
+            <span className="mono" style={{ color:'var(--muted)' }}>Бишкек · Каракол · Ош</span>
+          </div>
+          <div>
+            <h5>{lang==='en'?'Journeys':'Маршруты'}</h5>
+            <a href="#">Song-Kul</a>
+            <a href="#">Ala-Archa & Karakol</a>
+            <a href="#">Eagle winter</a>
+            <a href="#">Custom itinerary</a>
+          </div>
+          <div>
+            <h5>{lang==='en'?'Company':'О нас'}</h5>
+            <a href="#">{lang==='en'?'Our approach':'Подход'}</a>
+            <a href="#">{lang==='en'?'Guides':'Гиды'}</a>
+            <a href="#">{lang==='en'?'Journal':'Журнал'}</a>
+            <a href="#">{lang==='en'?'Press':'Пресса'}</a>
+          </div>
+          <div>
+            <h5>{lang==='en'?'Contact':'Контакты'}</h5>
+            <a href="#">hello@kyrgyzdream.trip</a>
+            <a href="#">+996 312 88 44 20</a>
+            <a href="#">{lang==='en'?'Ibraimova 24, Bishkek':'ул. Ибраимова 24, Бишкек'}</a>
+            <a href="#">Instagram · Telegram</a>
+          </div>
+        </div>
+        <div className="foot-bottom mono">
+          <span>© 2026 KDT LLC · Kyrgyz Tourism Assn. member</span>
+          <span>{lang==='en'?'Crafted in Bishkek · Сделано с любовью':'Сделано в Бишкеке · Crafted with love'}</span>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+function TweaksPanel({ palette, setPalette, layout, setLayout, on, onClose }) {
+  return (
+    <div className={'tweaks-panel ' + (on ? 'on' : '')}>
+      <h5>Tweaks</h5>
+      <div className="group">
+        <div className="label">Palette</div>
+        <div className="swatch-row">
+          <button className={palette==='alpine'?'active':''} onClick={()=>setPalette('alpine')} title="Alpine"><span className="sw-alpine"/></button>
+          <button className={palette==='felt'?'active':''} onClick={()=>setPalette('felt')} title="Felt"><span className="sw-felt"/></button>
+          <button className={palette==='midnight'?'active':''} onClick={()=>setPalette('midnight')} title="Midnight"><span className="sw-midnight"/></button>
+        </div>
+      </div>
+      <div className="group">
+        <div className="label">Card layout</div>
+        <div className="tweak-options">
+          <button className={layout==='stacked'?'active':''} onClick={()=>setLayout('stacked')}>Stacked</button>
+          <button className={layout==='magazine'?'active':''} onClick={()=>setLayout('magazine')}>Magazine</button>
+          <button className={layout==='postcard'?'active':''} onClick={()=>setLayout('postcard')}>Postcard</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const [lang, setLang] = useState('en');
+  const [query, setQuery] = useState('');
+  const [filter, setFilter] = useState('all');
+  const [duration, setDuration] = useState('any');
+  const [season, setSeason] = useState('any');
+  const [palette, setPalette] = useState(TWEAK_DEFAULTS.palette);
+  const [layout, setLayout] = useState(TWEAK_DEFAULTS.layout);
+  const [tweaksOn, setTweaksOn] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-palette', palette);
+    document.documentElement.setAttribute('data-layout', layout);
+  }, [palette, layout]);
+
+  useEffect(() => {
+    const onMsg = (e) => {
+      if (!e.data || typeof e.data !== 'object') return;
+      if (e.data.type === '__activate_edit_mode') setTweaksOn(true);
+      if (e.data.type === '__deactivate_edit_mode') setTweaksOn(false);
+    };
+    window.addEventListener('message', onMsg);
+    try { window.parent.postMessage({ type: '__edit_mode_available' }, '*'); } catch {}
+    return () => window.removeEventListener('message', onMsg);
+  }, []);
+
+  return (
+    <>
+      <Masthead lang={lang} setLang={setLang} />
+      <Hero
+        lang={lang}
+        query={query} setQuery={setQuery}
+        filter={filter} setFilter={setFilter}
+        duration={duration} setDuration={setDuration}
+        season={season} setSeason={setSeason}
+      />
+      <Tours lang={lang} query={query} filter={filter} duration={duration} season={season} />
+      <WhyUs lang={lang} />
+      <Guides lang={lang} />
+      <Journal lang={lang} />
+      <Footer lang={lang} />
+      <TweaksPanel
+        palette={palette} setPalette={setPalette}
+        layout={layout} setLayout={setLayout}
+        on={tweaksOn}
+      />
+      <button
+        className="tweaks-toggle"
+        style={{ right: tweaksOn ? '292px' : '16px' }}
+        onClick={() => setTweaksOn(v => !v)}
+      >
+        {tweaksOn ? '× Close' : '⊞ Tweaks'}
+      </button>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
