@@ -24,7 +24,7 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
                 </>
               )}
             </h1>
-            <p className="lede">
+            <p className="lede hero-lede-anim">
               {lang === 'en'
                 ? <>We plan fewer trips than we could. Every itinerary is built around a household, a valley, or a craft — and we cap our groups at eight travelers so the family feels like a family, not a stage.</>
                 : <>Мы делаем меньше туров, чем могли бы. Каждый маршрут строится вокруг семьи, долины или ремесла — и мы ограничиваем группу восьмью путешественниками, чтобы дом оставался домом, а не сценой.</>}
@@ -32,15 +32,15 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
                 {lang === 'en' ? '— Малые группы. Настоящие люди. Один повар на двоих.' : '— Small groups. Real people. One cook for every two guests.'}
               </span>
             </p>
-            <div className="hero-meta">
+            <div className="hero-meta hero-meta-anim">
               <div><span className="mono">JOURNEYS</span><span className="v">23</span></div>
               <div><span className="mono">GUIDES</span><span className="v">14</span></div>
               <div><span className="mono">GROUPS CAP</span><span className="v">8 max</span></div>
               <div><span className="mono">RETURN RATE</span><span className="v">38%</span></div>
             </div>
           </div>
-          <figure style={{ margin: 0 }}>
-            <div className="hero-photo">
+          <figure style={{ margin: 0 }} className="hero-photo-wrap">
+            <div className="hero-photo hero-photo-anim">
               <Placeholder label="PHOTO — Shepherd & horse, Suusamyr valley, wide shot, golden hour" />
             </div>
             <figcaption className="hero-caption mono">

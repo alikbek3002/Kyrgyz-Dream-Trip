@@ -11,12 +11,19 @@ export default function Masthead({ lang, setLang }) {
           </nav>
           <div className="brand">Kyrgyz <span className="amp">Dream</span> Trip</div>
           <div className="masthead-right">
-            <span className="mono" style={{ color: 'var(--muted)' }}>EST. 2016 · BISHKEK</span>
+            <span className="mono est-label" style={{ color: 'var(--muted)' }}>EST. 2016 · BISHKEK</span>
             <div className="lang-toggle" role="tablist">
               <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
               <button className={lang === 'ru' ? 'active' : ''} onClick={() => setLang('ru')}>РУ</button>
             </div>
           </div>
+          {/* mobile nav row */}
+          <nav className="mob-nav">
+            <a className="nav-link" href="#journeys">{lang === 'en' ? 'Journeys' : 'Маршруты'}</a>
+            <a className="nav-link" href="#why">{lang === 'en' ? 'Our approach' : 'Подход'}</a>
+            <a className="nav-link" href="#guides">{lang === 'en' ? 'Guides' : 'Гиды'}</a>
+            <a className="nav-link" href="#journal">{lang === 'en' ? 'Journal' : 'Журнал'}</a>
+          </nav>
         </div>
         <div className="issue-line">
           <span className="mono">Vol. IX · Issue 02 · Spring / Summer 2026</span>

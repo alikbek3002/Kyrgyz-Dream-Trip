@@ -1,0 +1,99 @@
+import { useMemo } from 'react'
+import Placeholder, { renderRich } from './Placeholder'
+import Reveal from './Reveal'
+import { TOURS } from '../data'
+
+function TourCard({ t, lang }) {
+  return (
+    <article className="card">
+      <div className="card-num">
+        <span>{t.num}</span>
+        <span>{t.region}</span>
+      </div>
+      <div className="card-photo">
+        {t.photo_url ? (
+          <img src={t.photo_url} alt={t.photo_alt || t.title_ru} loading="lazy" />
+        ) : (
+          <Placeholder label={t.photo} />
+        )}
+      </div>
+      <h3>{renderRich(t.title_en)}</h3>
+      <span className="cyr-title">{t.title_ru}</span>
+      <p className="deck">{t.deck}</p>
+      <div className="specs">
+        <div><span className="k">{lang === 'en' ? 'Duration' : 'Дней'}</span><span className="v">{t.duration}</span></div>
+        <div><span className="k">{lang === 'en' ? 'Season' : 'Сезон'}</span><span className="v">{t.season}</span></div>
+        <div><span className="k">{lang === 'en' ? 'Max altitude' : 'Выс. макс.'}</span><span className="v">{t.altitude}</span></div>
+        <div><span className="k">{lang === 'en' ? 'From' : 'От'}</span><span className="v">{t.from}</span></div>
+      </div>
+      <div className="card-reveal">
+        <span className="mono">{t.num} — {t.tag}</span>
+        <blockquote className="pull">{renderRich(t.pull)}</blockquote>
+        <div className="attrib">{t.attrib}</div>
+        <div className="itin">
+          {t.itin.map(([d, txt], i) => (
+            <div className="row" key={i}>
+              <span className="d">{d}</span>
+              <span>{txt}</span>
+            </div>
+          ))}
+        </div>
+        <a className="book" href="#">
+          <span>{lang === 'en' ? 'Hold a place' : 'Забронировать'}</span>
+          <span className="arr">→</span>
+        </a>
+      </div>
+    </article>
+  )
+}
+
+export default function Tours({ lang, query, filter, duration, season }) {
+  const filtered = useMemo(() => TOURS.filter(t => {
+    const q = query.trim().toLowerCase()
+    if (q) {
+      const hay = (t.title_ru + ' ' + JSON.stringify(t.title_en) + ' ' + t.deck + ' ' + t.tag + ' ' + t.region).toLowerCase()
+      if (!hay.includes(q)) return false
+    }
+    if (filter !== 'all' && t.tag !== filter) return false
+    if (duration !== 'any') {
+      const nights = parseInt(t.duration)
+      if (duration === 'short' && nights > 5) return false
+      if (duration === 'medium' && (nights < 6 || nights > 8)) return false
+      if (duration === 'long' && nights < 9) return false
+    }
+    if (season !== 'any') {
+      if (season === 'summer' && !/Jun|Jul|Aug|Sep|May/.test(t.season)) return false
+      if (season === 'winter' && !/Dec|Jan|Feb/.test(t.season)) return false
+      if (season === 'shoulder' && !/Apr|Oct|Mar|Nov/.test(t.season)) return false
+    }
+    return true
+  }), [query, filter, duration, season])
+
+  return (
+    <section className="tours">
+      <div className="wrap">
+        <Reveal direction="up">
+          <div className="section-head">
+            <span className="num">§ 01</span>
+            <h2>{lang === 'en' ? <>The <span className="italic">journeys</span>, spring '26</> : <>Маршруты, <span className="italic">весна '26</span></>}</h2>
+            <span className="mono right">{filtered.length} / {TOURS.length} {lang === 'en' ? 'shown' : 'показано'}</span>
+            <div className="line" />
+          </div>
+        </Reveal>
+        <div className="tours-grid">
+          {filtered.length === 0 ? (
+            <div className="empty-note">
+              {lang === 'en'
+                ? 'No journeys match that search. Try clearing a filter — we keep this catalog intentionally small.'
+                : 'Ничего не найдено. Попробуйте сбросить фильтры — наш каталог намеренно небольшой.'}
+            </div>
+          ) : filtered.map((t, i) => (
+            <Reveal key={t.id} direction="up" delay={i * 120}>
+              <TourCard t={t} lang={lang} />
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
