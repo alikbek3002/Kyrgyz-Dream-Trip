@@ -18,7 +18,7 @@ export default function Journal({ lang }) {
           {ARTICLES.map((a, i) => (
             <Reveal key={i} direction="up" delay={i * 110}>
               <article className="article">
-                <div className="photo"><Placeholder label={a.photo} /></div>
+                <div className="photo"><Placeholder src={a.photo_url} alt={lang === 'en' ? a.h_en : a.h_ru} label={a.photo} /></div>
                 <span className="kicker">{lang === 'en' ? a.kicker_en : a.kicker_ru}</span>
                 <h3>{lang === 'en' ? a.h_en : a.h_ru}</h3>
                 <span className="byline">{lang === 'en' ? a.by_en : a.by_ru}</span>

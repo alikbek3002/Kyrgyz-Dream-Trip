@@ -125,7 +125,10 @@ body {
 .card:last-child { border-right: 0; }
 .card-num { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 14px; display: flex; justify-content: space-between; }
 .card-photo { position: relative; aspect-ratio: 5/4; background: var(--paper); border: 1px solid var(--line); overflow: hidden; margin-bottom: 18px; }
-.card-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-photo img,
+.hero-photo img,
+.guide .portrait img,
+.article .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .card h3 { font-family: "DM Serif Display", serif; font-weight: 400; font-size: 30px; line-height: 1.05; margin: 0 0 6px; letter-spacing: -0.01em; }
 .card h3 .italic { font-style: italic; color: var(--accent); }
 .card .cyr-title { display: block; font-size: 15px; color: var(--muted); font-style: italic; margin-bottom: 12px; }

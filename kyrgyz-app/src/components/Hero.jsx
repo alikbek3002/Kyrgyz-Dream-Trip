@@ -33,15 +33,18 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
               </span>
             </p>
             <div className="hero-meta hero-meta-anim">
-              <div><span className="mono">JOURNEYS</span><span className="v">23</span></div>
-              <div><span className="mono">GUIDES</span><span className="v">14</span></div>
-              <div><span className="mono">GROUPS CAP</span><span className="v">8 max</span></div>
-              <div><span className="mono">RETURN RATE</span><span className="v">38%</span></div>
+              <div><span className="mono">JOURNEYS</span><span className="v">1</span></div>
+              <div><span className="mono">GUIDES</span><span className="v">4</span></div>
+              <div><span className="mono">GROUPS CAP</span><span className="v">14 max</span></div>
+              <div><span className="mono">RATING</span><span className="v">4.9 / 5</span></div>
             </div>
           </div>
           <figure style={{ margin: 0 }} className="hero-photo-wrap">
             <div className="hero-photo hero-photo-anim">
-              <Placeholder label="PHOTO — Shepherd & horse, Suusamyr valley, wide shot, golden hour" />
+              <Placeholder
+                src="https://resize.tripster.ru/9F-WxIl9-58Oe_pcDL0TuINCzOU=/fit-in/1000x1350/filters:no_upscale()/https://cdn.tripster.ru/photos/bd886e89-4c57-4418-aa8a-f7078f04da84.jpg"
+                alt="Kyrgyzstan landscape — Issyk-Kul region"
+              />
             </div>
             <figcaption className="hero-caption mono">
               <span>Fig. 01 — Suusamyr, late August</span>

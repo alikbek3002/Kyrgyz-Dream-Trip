@@ -1,4 +1,7 @@
-export default function Placeholder({ label }) {
+export default function Placeholder({ label, src, alt }) {
+  if (src) {
+    return <img src={src} alt={alt || label || ''} loading="lazy" />
+  }
   return (
     <>
       <div className="placeholder-stripes" />
