@@ -31,6 +31,22 @@ body {
   text-rendering: optimizeLegibility;
 }
 .serif-display { font-family: "DM Serif Display", "Source Serif 4", Georgia, serif; font-weight: 400; letter-spacing: -0.01em; }
+
+/* Cyrillic-friendly typography: DM Serif Display has limited Cyrillic.
+   Swap to PT Serif (designed for Cyrillic) on RU. */
+html[lang="ru"] body { font-family: "PT Serif", "Source Serif 4", Georgia, serif; }
+html[lang="ru"] .serif-display,
+html[lang="ru"] h1.serif-display,
+html[lang="ru"] h2,
+html[lang="ru"] h3,
+html[lang="ru"] h4,
+html[lang="ru"] h5,
+html[lang="ru"] .pull,
+html[lang="ru"] .book { font-family: "PT Serif", "Source Serif 4", Georgia, serif; letter-spacing: 0; }
+html[lang="ru"] .italic,
+html[lang="ru"] .pull,
+html[lang="ru"] em,
+html[lang="ru"] .cyr { font-style: italic; }
 .mono { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
 .cyr { font-family: "Source Serif 4", Georgia, serif; font-style: italic; color: var(--muted); }
 
@@ -138,20 +154,21 @@ body {
 .card .specs .k { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
 .card .specs .v { font-family: "DM Serif Display", serif; font-size: 17px; }
 
-.card-reveal { position: absolute; inset: 0; background: var(--ink); color: var(--bg); padding: 32px 28px; display: flex; flex-direction: column; opacity: 0; pointer-events: none; transition: opacity 280ms ease; }
+.card-reveal { position: absolute; inset: 0; background: var(--ink); color: var(--bg); padding: 24px 24px 20px; display: flex; flex-direction: column; gap: 12px; opacity: 0; pointer-events: none; transition: opacity 280ms ease; overflow-y: auto; }
 .card:hover .card-reveal { opacity: 1; pointer-events: auto; }
 .card-reveal .mono { color: rgba(255,255,255,0.55); }
-.card-reveal .pull { font-family: "DM Serif Display", serif; font-style: italic; font-size: 26px; line-height: 1.25; margin: 18px 0 14px; max-width: 28ch; }
+.card-reveal .pull { font-family: "DM Serif Display", serif; font-style: italic; font-size: 22px; line-height: 1.25; margin: 4px 0 0; max-width: 28ch; }
 .card-reveal .pull .mark { color: var(--accent-soft); }
-.card-reveal .attrib { color: rgba(255,255,255,0.65); font-size: 13px; margin-bottom: auto; }
-.card-reveal .itin { display: grid; gap: 6px; margin: 16px 0; }
-.card-reveal .itin .row { display: grid; grid-template-columns: 50px 1fr; gap: 10px; font-size: 14px; color: rgba(255,255,255,0.85); border-top: 1px solid rgba(255,255,255,0.12); padding-top: 6px; }
+.card-reveal .attrib { color: rgba(255,255,255,0.65); font-size: 13px; }
+.card-reveal .itin { display: grid; gap: 6px; margin: 4px 0 8px; }
+.card-reveal .itin .row { display: grid; grid-template-columns: 44px 1fr; gap: 10px; font-size: 13px; line-height: 1.35; color: rgba(255,255,255,0.85); border-top: 1px solid rgba(255,255,255,0.12); padding-top: 6px; }
 .card-reveal .itin .row .d { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); padding-top: 3px; }
-.card-reveal .book-row { display: flex; flex-direction: column; gap: 10px; }
-.card-reveal .book { display: inline-flex; justify-content: space-between; align-items: center; padding: 12px 16px; border: 1px solid rgba(255,255,255,0.3); color: var(--bg); text-decoration: none; font-family: "DM Serif Display", serif; font-size: 17px; transition: background 0.2s, color 0.2s; }
+.card-reveal .book-row { display: flex; flex-direction: column; gap: 8px; margin-top: auto; }
+.card-reveal .book { display: inline-flex; justify-content: space-between; align-items: center; gap: 12px; padding: 11px 16px; border: 1px solid rgba(255,255,255,0.3); color: var(--bg); text-decoration: none; font-family: "DM Serif Display", serif; font-size: 16px; transition: background 0.2s, color 0.2s; min-width: 0; }
 .card-reveal .book:hover { background: var(--bg); color: var(--ink); }
-.card-reveal .book .arr { font-family: "JetBrains Mono", monospace; font-size: 12px; }
-.card-reveal .book-secondary { border-color: rgba(255,255,255,0.2); font-size: 14px; padding: 10px 16px; color: rgba(255,255,255,0.85); font-family: "JetBrains Mono", monospace; letter-spacing: 0.04em; }
+.card-reveal .book .arr { font-family: "JetBrains Mono", monospace; font-size: 12px; flex-shrink: 0; }
+.card-reveal .book > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.card-reveal .book-secondary { border-color: rgba(255,255,255,0.2); font-size: 13px; padding: 9px 14px; color: rgba(255,255,255,0.85); font-family: "JetBrains Mono", monospace; letter-spacing: 0.03em; }
 .card-reveal .book-secondary:hover { background: var(--bg); color: var(--ink); }
 
 /* tours-grid: reveal wrappers become flex columns so card fills height */

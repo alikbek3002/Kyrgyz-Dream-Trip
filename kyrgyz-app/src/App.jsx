@@ -3,6 +3,7 @@ import Masthead from './components/Masthead'
 import Hero from './components/Hero'
 import Tours from './components/Tours'
 import Footer from './components/Footer'
+import Shield from './components/Shield'
 
 export default function App() {
   const [lang, setLang] = useState('ru')
@@ -16,8 +17,13 @@ export default function App() {
     document.documentElement.setAttribute('data-layout', 'stacked')
   }, [])
 
+  useEffect(() => {
+    document.documentElement.setAttribute('lang', lang)
+  }, [lang])
+
   return (
     <>
+      <Shield />
       <Masthead lang={lang} setLang={setLang} />
       <Hero
         lang={lang}
