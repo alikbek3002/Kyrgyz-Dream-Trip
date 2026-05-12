@@ -27,9 +27,10 @@ export default function Footer({ lang }) {
             </div>
             <div>
               <h5>{lang === 'en' ? 'Contact' : 'Связаться'}</h5>
-              <a href={`https://wa.me/${PHONE_RAW}`} target="_blank" rel="noreferrer">{lang === 'en' ? `WhatsApp · ${PHONE_DISPLAY}` : `WhatsApp · ${PHONE_DISPLAY}`}</a>
+              <a href={`https://wa.me/${PHONE_RAW}`} target="_blank" rel="noreferrer">
+                {lang === 'en' ? `WhatsApp / Phone · ${PHONE_DISPLAY}` : `WhatsApp / Телефон · ${PHONE_DISPLAY}`}
+              </a>
               <a href={`https://t.me/${TG_USER}`} target="_blank" rel="noreferrer">Telegram · @{TG_USER}</a>
-              <a href={`tel:+${PHONE_RAW}`}>{lang === 'en' ? `Phone · ${PHONE_DISPLAY}` : `Телефон · ${PHONE_DISPLAY}`}</a>
             </div>
             <div>
               <h5>{lang === 'en' ? 'When to go' : 'Когда ехать'}</h5>

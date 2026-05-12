@@ -6,17 +6,30 @@ import { TOURS } from '../data'
 const PHONE_RAW = '996990569369'
 const TG_USER = 'Airrrro'
 
+function pick(t, base, lang) {
+  return t[`${base}_${lang}`] ?? t[base]
+}
+
 function TourCard({ t, lang }) {
   const msg = lang === 'en'
-    ? `Hi! I'd like to book the ${t.title_ru} tour.`
+    ? `Hi! I'd like to book the "${t.title_ru}" tour.`
     : `Здравствуйте! Хочу забронировать тур «${t.title_ru}».`
   const waHref = `https://wa.me/${PHONE_RAW}?text=${encodeURIComponent(msg)}`
   const tgHref = `https://t.me/${TG_USER}`
+  const region = pick(t, 'region', lang)
+  const duration = pick(t, 'duration', lang)
+  const season = pick(t, 'season', lang)
+  const altitude = pick(t, 'altitude', lang)
+  const from = pick(t, 'from', lang)
+  const tagLabel = pick(t, 'tag', lang)
+  const pull = pick(t, 'pull', lang)
+  const attrib = pick(t, 'attrib', lang)
+  const itin = pick(t, 'itin', lang)
   return (
     <article className="card">
       <div className="card-num">
         <span>{t.num}</span>
-        <span>{t.region}</span>
+        <span>{region}</span>
       </div>
       <div className="card-photo">
         {t.photo_url ? (
@@ -29,17 +42,17 @@ function TourCard({ t, lang }) {
       <span className="cyr-title">{t.title_ru}</span>
       <p className="deck">{t.deck}</p>
       <div className="specs">
-        <div><span className="k">{lang === 'en' ? 'Duration' : 'Дней'}</span><span className="v">{t.duration}</span></div>
-        <div><span className="k">{lang === 'en' ? 'Season' : 'Сезон'}</span><span className="v">{t.season}</span></div>
-        <div><span className="k">{lang === 'en' ? 'Max altitude' : 'Выс. макс.'}</span><span className="v">{t.altitude}</span></div>
-        <div><span className="k">{lang === 'en' ? 'From' : 'От'}</span><span className="v">{t.from}</span></div>
+        <div><span className="k">{lang === 'en' ? 'Duration' : 'Дней'}</span><span className="v">{duration}</span></div>
+        <div><span className="k">{lang === 'en' ? 'Season' : 'Сезон'}</span><span className="v">{season}</span></div>
+        <div><span className="k">{lang === 'en' ? 'Max altitude' : 'Выс. макс.'}</span><span className="v">{altitude}</span></div>
+        <div><span className="k">{lang === 'en' ? 'From' : 'От'}</span><span className="v">{from}</span></div>
       </div>
       <div className="card-reveal">
-        <span className="mono">{t.num} — {t.tag}</span>
-        <blockquote className="pull">{renderRich(t.pull)}</blockquote>
-        <div className="attrib">{t.attrib}</div>
+        <span className="mono">{t.num} — {tagLabel}</span>
+        <blockquote className="pull">{renderRich(pull)}</blockquote>
+        <div className="attrib">{attrib}</div>
         <div className="itin">
-          {t.itin.map(([d, txt], i) => (
+          {itin.map(([d, txt], i) => (
             <div className="row" key={i}>
               <span className="d">{d}</span>
               <span>{txt}</span>
