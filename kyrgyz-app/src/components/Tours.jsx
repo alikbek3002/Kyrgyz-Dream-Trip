@@ -104,7 +104,7 @@ export default function Tours({ lang, query, filter, duration, season }) {
         <Reveal direction="up">
           <div className="section-head">
             <span className="num">§ 01</span>
-            <h2>{lang === 'en' ? <>Our <span className="italic">tour</span></> : <>Наш <span className="italic">тур</span></>}</h2>
+            <h2>{lang === 'en' ? <>Our <span className="italic">tours</span></> : <>Наши <span className="italic">туры</span></>}</h2>
             <span className="mono right">{filtered.length} / {TOURS.length} {lang === 'en' ? 'shown' : 'показано'}</span>
             <div className="line" />
           </div>
