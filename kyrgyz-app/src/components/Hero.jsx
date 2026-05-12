@@ -68,7 +68,7 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
             <input
               value={query}
               onChange={e => setQuery(e.target.value)}
-              placeholder={lang === 'en' ? 'e.g. Song-Kul, eagle, yurt…' : 'напр. Сон-Куль, беркут…'}
+              placeholder={lang === 'en' ? 'e.g. Issyk-Kul, eagle, yurt…' : 'напр. Иссык-Куль, беркут, юрта…'}
             />
           </div>
           <div>

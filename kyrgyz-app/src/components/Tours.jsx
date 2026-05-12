@@ -25,6 +25,9 @@ function TourCard({ t, lang }) {
   const pull = pick(t, 'pull', lang)
   const attrib = pick(t, 'attrib', lang)
   const itin = pick(t, 'itin', lang)
+  const title = pick(t, 'title', lang)
+  const sub = pick(t, 'sub', lang)
+  const deckText = pick(t, 'deck', lang)
   return (
     <article className="card">
       <div className="card-num">
@@ -38,9 +41,8 @@ function TourCard({ t, lang }) {
           <Placeholder label={t.photo} />
         )}
       </div>
-      <h3>{renderRich(t.title_en)}</h3>
-      <span className="cyr-title">{t.title_ru}</span>
-      <p className="deck">{t.deck}</p>
+      <h3>{Array.isArray(title) ? renderRich(title) : title}</h3>
+      <p className="deck">{deckText}</p>
       <div className="specs">
         <div><span className="k">{lang === 'en' ? 'Duration' : 'Дней'}</span><span className="v">{duration}</span></div>
         <div><span className="k">{lang === 'en' ? 'Season' : 'Сезон'}</span><span className="v">{season}</span></div>

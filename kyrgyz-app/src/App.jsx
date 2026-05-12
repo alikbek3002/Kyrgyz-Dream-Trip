@@ -3,7 +3,6 @@ import Masthead from './components/Masthead'
 import Hero from './components/Hero'
 import Tours from './components/Tours'
 import Footer from './components/Footer'
-import TweaksPanel from './components/TweaksPanel'
 
 export default function App() {
   const [lang, setLang] = useState('ru')
@@ -11,14 +10,11 @@ export default function App() {
   const [filter, setFilter] = useState('all')
   const [duration, setDuration] = useState('any')
   const [season, setSeason] = useState('any')
-  const [palette, setPalette] = useState('alpine')
-  const [layout, setLayout] = useState('stacked')
-  const [tweaksOn, setTweaksOn] = useState(false)
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-palette', palette)
-    document.documentElement.setAttribute('data-layout', layout)
-  }, [palette, layout])
+    document.documentElement.setAttribute('data-palette', 'alpine')
+    document.documentElement.setAttribute('data-layout', 'stacked')
+  }, [])
 
   return (
     <>
@@ -32,18 +28,6 @@ export default function App() {
       />
       <Tours lang={lang} query={query} filter={filter} duration={duration} season={season} />
       <Footer lang={lang} />
-      <TweaksPanel
-        palette={palette} setPalette={setPalette}
-        layout={layout} setLayout={setLayout}
-        on={tweaksOn}
-      />
-      <button
-        className="tweaks-toggle"
-        style={{ right: tweaksOn ? '292px' : '16px' }}
-        onClick={() => setTweaksOn(v => !v)}
-      >
-        {tweaksOn ? '× Close' : '⊞ Tweaks'}
-      </button>
     </>
   )
 }
