@@ -51,8 +51,8 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
           <figure style={{ margin: 0 }} className="hero-photo-wrap">
             <div className="hero-photo hero-photo-anim">
               <Placeholder
-                src="https://resize.tripster.ru/9F-WxIl9-58Oe_pcDL0TuINCzOU=/fit-in/1000x1350/filters:no_upscale()/https://cdn.tripster.ru/photos/bd886e89-4c57-4418-aa8a-f7078f04da84.jpg"
-                alt="Kyrgyzstan landscape — Issyk-Kul region"
+                src="/tour-all-colors.jpg"
+                alt="Kyrgyz mountain meadow with buttercups and a Taigan dog"
               />
             </div>
             <figcaption className="hero-caption mono">
