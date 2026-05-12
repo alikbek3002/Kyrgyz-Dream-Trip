@@ -26,17 +26,26 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
             </h1>
             <p className="lede hero-lede-anim">
               {lang === 'en'
-                ? <>We plan fewer trips than we could. Every itinerary is built around a household, a valley, or a craft — and we cap our groups at eight travelers so the family feels like a family, not a stage.</>
-                : <>Мы делаем меньше туров, чем могли бы. Каждый маршрут строится вокруг семьи, долины или ремесла — и мы ограничиваем группу восьмью путешественниками, чтобы дом оставался домом, а не сценой.</>}
-              <span className="cyr">
-                {lang === 'en' ? '— Малые группы. Настоящие люди. Один повар на двоих.' : '— Small groups. Real people. One cook for every two guests.'}
-              </span>
+                ? <>One carefully built six-day tour along Issyk-Kul — Burana Tower, Skazka canyon, Jeti-Ögüz red rocks, an eagle-hunter demo, a horseback ride to Maiden\'s Tears falls, a lake cruise and a felt-weaving masterclass. Small groups, real hosts, transparent price.</>
+                : <>Один тщательно собранный шестидневный тур по Иссык-Кулю — Башня Бурана, каньон Сказка, красные скалы Джеты-Огуз, демонстрация беркут-охоты, конная прогулка к водопаду Девичьи слёзы, круиз по озеру и мастер-класс по войлоку. Небольшая группа, настоящие хозяева, прозрачная цена.</>}
             </p>
             <div className="hero-meta hero-meta-anim">
-              <div><span className="mono">JOURNEYS</span><span className="v">1</span></div>
-              <div><span className="mono">GUIDES</span><span className="v">4</span></div>
-              <div><span className="mono">GROUPS CAP</span><span className="v">14 max</span></div>
-              <div><span className="mono">RATING</span><span className="v">4.9 / 5</span></div>
+              <div>
+                <span className="mono">{lang === 'en' ? 'TOURS' : 'ТУРЫ'}</span>
+                <span className="v">1</span>
+              </div>
+              <div>
+                <span className="mono">{lang === 'en' ? 'GROUP CAP' : 'ГРУППА'}</span>
+                <span className="v">{lang === 'en' ? '14 max' : 'до 14'}</span>
+              </div>
+              <div>
+                <span className="mono">{lang === 'en' ? 'DURATION' : 'ДЛИТЕЛЬНОСТЬ'}</span>
+                <span className="v">{lang === 'en' ? '6 days' : '6 дней'}</span>
+              </div>
+              <div>
+                <span className="mono">{lang === 'en' ? 'RATING' : 'РЕЙТИНГ'}</span>
+                <span className="v">4.9 / 5</span>
+              </div>
             </div>
           </div>
           <figure style={{ margin: 0 }} className="hero-photo-wrap">
@@ -47,8 +56,8 @@ export default function Hero({ lang, query, setQuery, filter, setFilter, duratio
               />
             </div>
             <figcaption className="hero-caption mono">
-              <span>Fig. 01 — Suusamyr, late August</span>
-              <span>Photographed by A. Osmonaliev</span>
+              <span>{lang === 'en' ? 'Issyk-Kul region · summer' : 'Иссык-Куль · лето'}</span>
+              <span>{lang === 'en' ? 'All Colors of Kyrgyzstan' : 'Все краски Кыргызстана'}</span>
             </figcaption>
           </figure>
         </div>

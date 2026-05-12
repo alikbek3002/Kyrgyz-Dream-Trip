@@ -147,9 +147,12 @@ body {
 .card-reveal .itin { display: grid; gap: 6px; margin: 16px 0; }
 .card-reveal .itin .row { display: grid; grid-template-columns: 50px 1fr; gap: 10px; font-size: 14px; color: rgba(255,255,255,0.85); border-top: 1px solid rgba(255,255,255,0.12); padding-top: 6px; }
 .card-reveal .itin .row .d { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); padding-top: 3px; }
+.card-reveal .book-row { display: flex; flex-direction: column; gap: 10px; }
 .card-reveal .book { display: inline-flex; justify-content: space-between; align-items: center; padding: 12px 16px; border: 1px solid rgba(255,255,255,0.3); color: var(--bg); text-decoration: none; font-family: "DM Serif Display", serif; font-size: 17px; transition: background 0.2s, color 0.2s; }
 .card-reveal .book:hover { background: var(--bg); color: var(--ink); }
 .card-reveal .book .arr { font-family: "JetBrains Mono", monospace; font-size: 12px; }
+.card-reveal .book-secondary { border-color: rgba(255,255,255,0.2); font-size: 14px; padding: 10px 16px; color: rgba(255,255,255,0.85); font-family: "JetBrains Mono", monospace; letter-spacing: 0.04em; }
+.card-reveal .book-secondary:hover { background: var(--bg); color: var(--ink); }
 
 /* tours-grid: reveal wrappers become flex columns so card fills height */
 .tours-grid > .reveal { display: flex; flex-direction: column; }

@@ -3,7 +3,15 @@ import Placeholder, { renderRich } from './Placeholder'
 import Reveal from './Reveal'
 import { TOURS } from '../data'
 
+const PHONE_RAW = '996990569369'
+const TG_USER = 'Airrrro'
+
 function TourCard({ t, lang }) {
+  const msg = lang === 'en'
+    ? `Hi! I'd like to book the ${t.title_ru} tour.`
+    : `Здравствуйте! Хочу забронировать тур «${t.title_ru}».`
+  const waHref = `https://wa.me/${PHONE_RAW}?text=${encodeURIComponent(msg)}`
+  const tgHref = `https://t.me/${TG_USER}`
   return (
     <article className="card">
       <div className="card-num">
@@ -38,10 +46,16 @@ function TourCard({ t, lang }) {
             </div>
           ))}
         </div>
-        <a className="book" href="#">
-          <span>{lang === 'en' ? 'Hold a place' : 'Забронировать'}</span>
-          <span className="arr">→</span>
-        </a>
+        <div className="book-row">
+          <a className="book" href={waHref} target="_blank" rel="noreferrer">
+            <span>{lang === 'en' ? 'Book via WhatsApp' : 'Забронировать в WhatsApp'}</span>
+            <span className="arr">→</span>
+          </a>
+          <a className="book book-secondary" href={tgHref} target="_blank" rel="noreferrer">
+            <span>Telegram · @{TG_USER}</span>
+            <span className="arr">→</span>
+          </a>
+        </div>
       </div>
     </article>
   )
@@ -75,7 +89,7 @@ export default function Tours({ lang, query, filter, duration, season }) {
         <Reveal direction="up">
           <div className="section-head">
             <span className="num">§ 01</span>
-            <h2>{lang === 'en' ? <>The <span className="italic">journeys</span>, spring '26</> : <>Маршруты, <span className="italic">весна '26</span></>}</h2>
+            <h2>{lang === 'en' ? <>Our <span className="italic">tour</span></> : <>Наш <span className="italic">тур</span></>}</h2>
             <span className="mono right">{filtered.length} / {TOURS.length} {lang === 'en' ? 'shown' : 'показано'}</span>
             <div className="line" />
           </div>

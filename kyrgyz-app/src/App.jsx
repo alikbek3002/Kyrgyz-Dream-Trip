@@ -2,14 +2,11 @@ import { useState, useEffect } from 'react'
 import Masthead from './components/Masthead'
 import Hero from './components/Hero'
 import Tours from './components/Tours'
-import WhyUs from './components/WhyUs'
-import Guides from './components/Guides'
-import Journal from './components/Journal'
 import Footer from './components/Footer'
 import TweaksPanel from './components/TweaksPanel'
 
 export default function App() {
-  const [lang, setLang] = useState('en')
+  const [lang, setLang] = useState('ru')
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState('all')
   const [duration, setDuration] = useState('any')
@@ -34,9 +31,6 @@ export default function App() {
         season={season} setSeason={setSeason}
       />
       <Tours lang={lang} query={query} filter={filter} duration={duration} season={season} />
-      <WhyUs lang={lang} />
-      <Guides lang={lang} />
-      <Journal lang={lang} />
       <Footer lang={lang} />
       <TweaksPanel
         palette={palette} setPalette={setPalette}
