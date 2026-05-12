@@ -1,0 +1,10 @@
+[    1399ms] [LOG] DOMContentLoaded (DevTools): 0.00 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:56
+[    1428ms] [LOG] Host-app rendering completed (self): 28.80 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    1428ms] [LOG] Host-app loading completed (total): 32.40 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    1563ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://experience.tripster.ru/experience/106386/:0
+[    1571ms] [LOG] LCP (Largest Contentful Paint): 1548.00 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    1823ms] [ERROR] Не удалось сформировать измерение производительности рендеринга MF "travelers-experience-mfe" SyntaxError: Failed to execute 'measure' on 'Performance': The mark 'mf-loaded:travelers-experience-mfe' does not exist.
+    at https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:205:5731 @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    1824ms] [LOG] MF "travelers-experience-mfe" загружен! Время рендера: 1801.00ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    2602ms] [LOG] LCP (Largest Contentful Paint): 2580.00 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194
+[    3034ms] [LOG] LCP (Largest Contentful Paint): 3012.00 ms @ https://experience.tripster.ru/mfs/assets/app-D-qS3uu2.js:194

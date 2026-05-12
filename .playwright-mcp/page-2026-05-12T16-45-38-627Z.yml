@@ -1,0 +1,232 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e10]:
+      - link "Перейти на главную страницу" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img [ref=e13]:
+          - img [ref=e14]
+      - generic [ref=e27]:
+        - generic [ref=e31]:
+          - img [ref=e33]
+          - textbox "Куда вы собираетесь?" [ref=e35]
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - link "Экскурсии" [ref=e40] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e41]:
+            - link "Туры" [ref=e42] [cursor=pointer]:
+              - /url: /tours/
+          - listitem [ref=e43]:
+            - link "Аудиогиды" [ref=e44] [cursor=pointer]:
+              - /url: https://promo.tripster.ru/audioguides?utm_campaign=site_header&utm_medium=main_web&utm_source=experience_tripster
+        - navigation [ref=e45]:
+          - generic "Избранное" [ref=e46]:
+            - link [ref=e47] [cursor=pointer]:
+              - /url: /favorites/
+              - img [ref=e48]
+          - button "Войти" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]: Войти
+    - generic [ref=e56]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic:
+            - navigation
+          - generic [ref=e69]:
+            - generic:
+              - heading [level=1]
+            - generic [ref=e73]:
+              - img [ref=e74]
+              - paragraph [ref=e77]
+        - generic [ref=e86]:
+          - heading "Включено в рубрики" [level=3] [ref=e87]
+          - group
+        - generic [ref=e88]:
+          - heading "Место встречи" [level=3] [ref=e89]
+          - text: По договорённости с организатором. Вы можете обсудить его в заказе до предоплаты.
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "Остались вопросы?" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Напишите организатору и уточните всё важное до оплаты
+          - button "Задать вопрос" [ref=e95] [cursor=pointer]:
+            - generic [ref=e97]: Задать вопрос
+        - generic [ref=e99]:
+          - heading [level=2]
+        - generic [ref=e150]:
+          - heading "Условия бронирования" [level=3] [ref=e151]
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img [ref=e156]
+              - generic [ref=e159]: Для предоплаты на Трипстере принимаем карты российских и иностранных банков
+            - generic [ref=e160]:
+              - img [ref=e162]
+              - generic [ref=e165]: Бесплатная отмена за 48 часов
+            - generic [ref=e166]:
+              - img [ref=e168]
+              - generic [ref=e171]: Задать вопросы организатору можно в заказе до предоплаты
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - heading "Экскурсии и туры от экспертов Трипстера" [level=3] [ref=e179]
+            - generic [ref=e180]:
+              - text: Классные места, скидки и интересные события у вас в почте ·
+              - link "Пример письма" [ref=e181] [cursor=pointer]:
+                - /url: https://experience-ireland.s3.amazonaws.com/email_examples/subscriptionEmailExample.html
+          - generic:
+            - img "subscribe_footer"
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - heading "Планируйте путешествие на ходу" [level=3] [ref=e184]
+            - generic [ref=e185]:
+              - text: Лучшие гиды по всему миру —
+              - text: в приложении Трипстера
+            - generic [ref=e186]:
+              - img "Скачайте приложение Tripster для путешественников" [ref=e188]
+              - link "Доступно в Google Play" [ref=e189] [cursor=pointer]:
+                - /url: https://tripster.onelink.me/N4gN/4rswcj3g
+                - img [ref=e190]
+                - generic [ref=e192]:
+                  - text: Доступно
+                  - text: в Google Play
+              - link "Загрузить в App Store" [ref=e193] [cursor=pointer]:
+                - /url: https://tripster.onelink.me/N4gN/4rswcj3g
+                - img [ref=e194]
+                - generic [ref=e197]:
+                  - text: Загрузить
+                  - text: в App Store
+          - generic:
+            - img "Снимок города в телефоне"
+  - generic [ref=e200]:
+    - generic [ref=e201]:
+      - navigation [ref=e202]:
+        - link [ref=e203] [cursor=pointer]:
+          - /url: https://t.me/tripsterofficial
+          - img [ref=e204]
+        - link [ref=e207] [cursor=pointer]:
+          - /url: https://vk.com/tripster_ru
+          - img [ref=e208]
+        - link [ref=e211] [cursor=pointer]:
+          - /url: https://dzen.ru/id/5dd518a76b888b11ecbd4f51
+          - img [ref=e212]
+        - link [ref=e215] [cursor=pointer]:
+          - /url: https://ok.ru/group/70000001233998
+          - img [ref=e216]
+      - generic [ref=e219]:
+        - text: Обзоры необычных мест по всему миру,
+        - text: новинки и скидки в наших соцсетях
+      - generic [ref=e220]:
+        - link "Доступно в Google Play" [ref=e221] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=ru.tripster.tripster
+          - generic [ref=e222]:
+            - text: Доступно
+            - text: в Google Play
+          - img [ref=e223]
+        - link "Загрузите в App Store" [ref=e226] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/tripster/id1499356873
+          - generic [ref=e227]:
+            - text: Загрузите
+            - text: в App Store
+          - img [ref=e228]
+        - button [ref=e233]:
+          - img [ref=e234]
+      - generic [ref=e237]:
+        - link "Экскурсии" [ref=e238] [cursor=pointer]:
+          - /url: /
+        - link "Туры" [ref=e239] [cursor=pointer]:
+          - /url: /tours/
+        - link "Журнал Трипстера" [ref=e240] [cursor=pointer]:
+          - /url: /journal/
+        - link "Вакансии" [ref=e241] [cursor=pointer]:
+          - /url: https://tripster.huntflow.io/
+        - link "О проекте" [ref=e242] [cursor=pointer]:
+          - /url: /about/
+        - link "Юридические документы" [ref=e243] [cursor=pointer]:
+          - /url: /about/terms
+      - generic [ref=e244]: © 2013—2026, Flight Marketplace Admin, Bignut route Limited
+      - generic [ref=e245]:
+        - img [ref=e247]
+        - img [ref=e251]
+        - img [ref=e257]
+        - img [ref=e265]
+        - img [ref=e271]
+        - img [ref=e279]
+        - img [ref=e287]
+    - complementary [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]: Путешественникам
+        - list [ref=e298]:
+          - link "Частые вопросы" [ref=e299] [cursor=pointer]:
+            - /url: /help_center/travelers/
+          - link "Безопасность платежей" [ref=e300] [cursor=pointer]:
+            - /url: /about/secure_payments/
+          - link "Политика возврата" [ref=e301] [cursor=pointer]:
+            - /url: /about/cancellation_policy/
+      - generic [ref=e302]:
+        - generic [ref=e303]: Гидам
+        - list [ref=e304]:
+          - link "Стать гидом" [ref=e305] [cursor=pointer]:
+            - /url: /locals/
+          - link "Помощь" [ref=e306] [cursor=pointer]:
+            - /url: /help_center/guides/
+      - generic [ref=e307]:
+        - generic [ref=e308]: Партнёрам и турагентам
+        - list [ref=e309]:
+          - link "Стать партнёром" [ref=e310] [cursor=pointer]:
+            - /url: /partners/
+          - link "Регистрация для турагентов" [ref=e311] [cursor=pointer]:
+            - /url: /partners/travelagents/
+          - link "Кабинет партнёра и турагента" [ref=e312] [cursor=pointer]:
+            - /url: /partner-account/
+          - link "Справка" [ref=e313] [cursor=pointer]:
+            - /url: https://experience.tripster.ru/help-center/partner/
+    - generic [ref=e314]:
+      - generic [ref=e315]: Поддержка 9–21 МСК
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - link "Написать ВКонтакте" [ref=e318] [cursor=pointer]:
+            - /url: https://vk.com/im?sel=-51519887
+            - img [ref=e319]
+            - generic [ref=e321]: Написать ВКонтакте
+        - listitem [ref=e322]:
+          - button "Написать нам в чат" [ref=e323] [cursor=pointer]:
+            - img [ref=e324]
+            - generic [ref=e326]: Написать нам в чат
+        - listitem [ref=e327]:
+          - link "Написать в Max" [ref=e328] [cursor=pointer]:
+            - /url: https://max.ru/id7840100571_bot
+            - img [ref=e329]
+            - generic [ref=e333]: Написать в Max
+        - listitem [ref=e334]:
+          - link "+7 495 146-39-66" [ref=e335] [cursor=pointer]:
+            - /url: tel:+74951463966
+            - img [ref=e336]
+            - generic [ref=e342]: +7 495 146-39-66
+        - listitem [ref=e343]:
+          - link "+420 228 889 544" [ref=e344] [cursor=pointer]:
+            - /url: tel:+420228889544
+            - img [ref=e345]
+            - generic [ref=e348]: +420 228 889 544
+        - listitem [ref=e349]:
+          - link "support@tripster.ru" [ref=e350] [cursor=pointer]:
+            - /url: mailto:support@tripster.ru
+            - img [ref=e351]
+            - generic [ref=e353]: support@tripster.ru
+      - button "Написать отзыв о сайте" [ref=e354]:
+        - text: Написать
+        - text: отзыв о сайте
+        - img [ref=e355]
+  - generic [ref=e360]:
+    - generic [ref=e361]:
+      - generic [ref=e362]: Cookies for your comfort
+      - text: We use mandatory cookies to load the site correctly and optional cookies to improve Tripster and marketing. By authorising their use, you agree to our
+      - link "cookie policy" [ref=e363] [cursor=pointer]:
+        - /url: /about/cookie
+    - generic [ref=e364]:
+      - button "Accept all" [ref=e365] [cursor=pointer]:
+        - generic [ref=e367]: Accept all
+      - button "Open settings" [ref=e368] [cursor=pointer]:
+        - generic [ref=e370]: Open settings
+      - generic [ref=e372]:
+        - radio "Ру" [ref=e373]
+        - generic [ref=e374]: Ру
+        - radio "En" [checked] [ref=e375]
+        - generic [ref=e376]: En

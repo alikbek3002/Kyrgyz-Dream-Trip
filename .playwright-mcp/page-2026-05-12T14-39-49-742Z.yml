@@ -1,0 +1,156 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e6]:
+          - link "Туры" [ref=e7] [cursor=pointer]:
+            - /url: "#journeys"
+          - link "Контакты" [ref=e8] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e9]: Nomad Travel
+        - generic [ref=e10]:
+          - generic [ref=e11]: БИШКЕК · КЫРГЫЗСТАН
+          - tablist [ref=e12]:
+            - button "EN" [ref=e13] [cursor=pointer]
+            - button "РУ" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - generic [ref=e16]: Весна / Лето 2026
+        - generic [ref=e17]: 42.87° с.ш. / 74.60° в.д. — Бишкек
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "Неспешные путешествия по Тянь-Шаню, глазами местных." [level=1] [ref=e22]:
+          - generic [ref=e23]: Неспешные
+          - generic [ref=e24]: путешествия
+          - generic [ref=e25]: по Тянь-Шаню,
+          - generic [ref=e26]: глазами местных.
+        - paragraph [ref=e27]: Один тщательно собранный шестидневный тур по Иссык-Кулю — Башня Бурана, каньон Сказка, красные скалы Джеты-Огуз, демонстрация беркут-охоты, конная прогулка к водопаду Девичьи слёзы, круиз по озеру и мастер-класс по войлоку. Небольшая группа, настоящие хозяева, прозрачная цена.
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: ТУРЫ
+            - generic [ref=e31]: "1"
+          - generic [ref=e32]:
+            - generic [ref=e33]: ГРУППА
+            - generic [ref=e34]: до 14
+          - generic [ref=e35]:
+            - generic [ref=e36]: ДЛИТЕЛЬНОСТЬ
+            - generic [ref=e37]: 6 дней
+          - generic [ref=e38]:
+            - generic [ref=e39]: РЕЙТИНГ
+            - generic [ref=e40]: 4.9 / 5
+      - figure "Иссык-Куль · лето Все краски Кыргызстана" [ref=e41]:
+        - img "Kyrgyzstan landscape — Issyk-Kul region" [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]: Иссык-Куль · лето
+          - generic [ref=e46]: Все краски Кыргызстана
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]: Место или ключевое слово
+        - textbox "напр. Иссык-Куль, беркут, юрта…" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]: Длительность
+        - combobox [ref=e53]:
+          - option "Любая" [selected]
+          - option "до 5 ночей"
+          - option "6 – 8 ночей"
+          - option "9+ ночей"
+      - generic [ref=e54]:
+        - generic [ref=e55]: Сезон
+        - combobox [ref=e56]:
+          - option "Любой" [selected]
+          - option "Лето"
+          - option "Зима"
+          - option "Межсезонье"
+      - button "Найти маршрут →" [ref=e57] [cursor=pointer]
+    - generic [ref=e58]:
+      - button "Все маршруты" [ref=e59] [cursor=pointer]
+      - button "Обзорные" [ref=e60] [cursor=pointer]
+  - generic [ref=e62]:
+    - generic [ref=e64]:
+      - generic [ref=e65]: § 01
+      - heading "Наш тур" [level=2] [ref=e66]
+      - generic [ref=e67]: 1 / 1 показано
+    - article [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: No. 01
+        - generic [ref=e74]: Бишкек · Иссык-Куль
+      - img "Issyk-Kul shore at sunrise" [ref=e76]
+      - heading "Все краски Кыргызстана" [level=3] [ref=e77]
+      - paragraph [ref=e78]: "Шесть дней из Бишкека вдоль Иссык-Куля: Башня Бурана на древнем Шёлковом пути, красный песчаник каньона Сказка, демонстрация беркут-охоты, скалы Джеты-Огуз, конная прогулка к водопаду Девичьи слёзы, круиз по озеру и мастер-класс по войлоку из шерсти мериноса."
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]: Дней
+          - generic [ref=e82]: 6 дней
+        - generic [ref=e83]:
+          - generic [ref=e84]: Сезон
+          - generic [ref=e85]: Июн — Окт
+        - generic [ref=e86]:
+          - generic [ref=e87]: Выс. макс.
+          - generic [ref=e88]: 2800 м
+        - generic [ref=e89]:
+          - generic [ref=e90]: От
+          - generic [ref=e91]: 80 000 ₽
+      - generic:
+        - generic: No. 01 — Обзорный
+        - blockquote: «Кыргызстан измеряется красками озера, а не километрами.»
+        - generic: — Галя, координатор команды · рейтинг 4.9 на Трипстере
+        - generic:
+          - generic:
+            - generic: Д01
+            - generic: "Бишкек: трансфер, площадь Ала-Тоо, приветственный ужин"
+          - generic:
+            - generic: Д02
+            - generic: Башня Бурана, обед в Балыкчи, беркут-шоу, каньон Сказка, юрточный лагерь у Иссык-Куля
+          - generic:
+            - generic: Д03
+            - generic: Ущелье Борскоон, водопад Брызги Шампанского, скалы Джеты-Огуз, конная прогулка к Девичьим слезам, Каракол
+          - generic:
+            - generic: Д04
+            - generic: Григорьевское ущелье, форелевое хозяйство, Чолпон-Ата, круиз по Иссык-Кулю, горячие источники
+          - generic:
+            - generic: Д05
+            - generic: Переезд в Бишкек, мастер-класс по войлоку из шерсти мериноса, прощальный ужин
+          - generic:
+            - generic: Д06
+            - generic: Ошский рынок утром, трансфер в аэропорт в 13:00
+        - generic:
+          - link "Забронировать в WhatsApp →":
+            - /url: https://wa.me/996990569369?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D1%82%D1%83%D1%80%20%C2%AB%D0%92%D1%81%D0%B5%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8%2C%5Bobject%20Object%5D%C2%BB.
+            - generic: Забронировать в WhatsApp
+            - generic: →
+          - link "Telegram · @Airrrro →":
+            - /url: https://t.me/Airrrro
+            - generic: Telegram · @Airrrro
+            - generic: →
+  - contentinfo [ref=e92]:
+    - generic [ref=e93]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: Nomad Travel
+          - paragraph [ref=e98]: Небольшое турагентство из Бишкека. Один тщательно собранный шестидневный маршрут по Иссык-Кулю, который ведут местные.
+          - text: Бишкек · Каракол · Иссык-Куль
+        - generic [ref=e99]:
+          - heading "Тур" [level=5] [ref=e100]
+          - link "Все краски Кыргызстана" [ref=e101] [cursor=pointer]:
+            - /url: "#journeys"
+          - link "Программа · 6 дней" [ref=e102] [cursor=pointer]:
+            - /url: "#journeys"
+          - link "От 80 000 ₽ за человека" [ref=e103] [cursor=pointer]:
+            - /url: "#journeys"
+        - generic [ref=e104]:
+          - heading "Связаться" [level=5] [ref=e105]
+          - link "WhatsApp / Телефон · +996 990 569 369" [ref=e106] [cursor=pointer]:
+            - /url: https://wa.me/996990569369
+          - link "Telegram · @Airrrro" [ref=e107] [cursor=pointer]:
+            - /url: https://t.me/Airrrro
+        - generic [ref=e108]:
+          - heading "Когда ехать" [level=5] [ref=e109]
+          - link "Июнь — октябрь" [ref=e110] [cursor=pointer]:
+            - /url: "#journeys"
+          - 'link "Лучше: июнь, июль, сентябрь" [ref=e111] [cursor=pointer]':
+            - /url: "#journeys"
+          - link "Предоплата 15%" [ref=e112] [cursor=pointer]:
+            - /url: "#journeys"
+      - generic [ref=e113]:
+        - generic [ref=e114]: © 2026 Nomad Travel · Бишкек, Кыргызстан
+        - generic [ref=e115]: Сделано в Бишкеке

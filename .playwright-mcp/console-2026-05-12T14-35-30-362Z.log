@@ -1,0 +1,98 @@
+[      85ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:21606
+[     208ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/favicon.ico:0
+[   78571ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3737:39)
+[   78573ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3737:39)
+[   78574ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at article
+    at TourCard (http://localhost:5173/src/components/Tours.jsx?t=1778596608865:27:21)
+    at div
+    at Reveal (http://localhost:5173/src/components/Reveal.jsx:19:34)
+    at div
+    at div
+    at section
+    at Tours (http://localhost:5173/src/components/Tours.jsx?t=1778596608865:250:33)
+    at App (http://localhost:5173/src/App.jsx:26:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14077
+[   78575ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19804:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19249:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19188:13)
+[   89652ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14336:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3737:39)
+[   89654ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14336:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:3737:39)
+[   89655ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at article
+    at TourCard (http://localhost:5173/src/components/Tours.jsx?t=1778596619967:27:21)
+    at div
+    at Reveal (http://localhost:5173/src/components/Reveal.jsx:19:34)
+    at div
+    at div
+    at section
+    at Tours (http://localhost:5173/src/components/Tours.jsx?t=1778596619967:253:33)
+    at App (http://localhost:5173/src/App.jsx:26:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14077
+[   89655ms] Error: Objects are not valid as a React child (found: object with keys {italic}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:9979:17)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10155:15)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10327:33)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:10604:24)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14336:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:15981:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19804:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19249:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-HCIN4FJ4.js?v=3801fadd:19188:13)

@@ -1,0 +1,246 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e6]:
+          - link "Journeys" [ref=e7] [cursor=pointer]:
+            - /url: "#journeys"
+          - link "Our approach" [ref=e8] [cursor=pointer]:
+            - /url: "#why"
+          - link "Guides" [ref=e9] [cursor=pointer]:
+            - /url: "#guides"
+          - link "Journal" [ref=e10] [cursor=pointer]:
+            - /url: "#journal"
+        - generic [ref=e11]: Kyrgyz Dream Trip
+        - generic [ref=e12]:
+          - generic [ref=e13]: EST. 2016 · BISHKEK
+          - tablist [ref=e14]:
+            - button "EN" [ref=e15] [cursor=pointer]
+            - button "РУ" [ref=e16] [cursor=pointer]
+      - generic [ref=e17]:
+        - generic [ref=e18]: Vol. IX · Issue 02 · Spring / Summer 2026
+        - generic [ref=e19]: 42.87° N / 74.60° E — Bishkek
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading "Slow journeys through the Tian Shan, told by people who live there." [level=1] [ref=e24]:
+          - generic [ref=e25]: Slow journeys
+          - generic [ref=e26]: through the Tian Shan,
+          - generic [ref=e27]: told by people
+          - generic [ref=e28]: who live there.
+        - paragraph [ref=e29]:
+          - text: We plan fewer trips than we could. Every itinerary is built around a household, a valley, or a craft — and we cap our groups at eight travelers so the family feels like a family, not a stage.
+          - generic [ref=e30]: — Малые группы. Настоящие люди. Один повар на двоих.
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: JOURNEYS
+            - generic [ref=e34]: "1"
+          - generic [ref=e35]:
+            - generic [ref=e36]: GUIDES
+            - generic [ref=e37]: "4"
+          - generic [ref=e38]:
+            - generic [ref=e39]: GROUPS CAP
+            - generic [ref=e40]: 14 max
+          - generic [ref=e41]:
+            - generic [ref=e42]: RATING
+            - generic [ref=e43]: 4.9 / 5
+      - figure "Fig. 01 — Suusamyr, late August Photographed by A. Osmonaliev" [ref=e44]:
+        - img "Kyrgyzstan landscape — Issyk-Kul region" [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]: Fig. 01 — Suusamyr, late August
+          - generic [ref=e49]: Photographed by A. Osmonaliev
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]: Destination or keyword
+        - textbox "e.g. Song-Kul, eagle, yurt…" [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]: Duration
+        - combobox [ref=e56]:
+          - option "Any length" [selected]
+          - option "≤ 5 nights"
+          - option "6 – 8 nights"
+          - option "9+ nights"
+      - generic [ref=e57]:
+        - generic [ref=e58]: Season
+        - combobox [ref=e59]:
+          - option "Any season" [selected]
+          - option "Summer"
+          - option "Winter"
+          - option "Shoulder season"
+      - button "Find a journey →" [ref=e60] [cursor=pointer]
+    - generic [ref=e61]:
+      - button "All journeys" [ref=e62] [cursor=pointer]
+      - button "Overview" [ref=e63] [cursor=pointer]
+  - generic [ref=e65]:
+    - generic [ref=e67]:
+      - generic [ref=e68]: § 01
+      - heading "The journeys, spring '26" [level=2] [ref=e69]
+      - generic [ref=e70]: 1 / 1 shown
+    - article [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: No. 01
+        - generic [ref=e77]: Bishkek · Issyk-Kul
+      - img "Issyk-Kul shore at sunrise" [ref=e79]
+      - heading "All colors of Kyrgyzstan" [level=3] [ref=e80]
+      - generic [ref=e81]: Все краски Кыргызстана
+      - paragraph [ref=e82]: "Six days from Bishkek along Issyk-Kul: Burana Tower on the old Silk Road, Skazka canyon's red sandstone, an eagle-hunter demo, Jeti-Ögüz red rocks, horseback to Maiden's Tears falls, a lake cruise and a merino felt-weaving masterclass."
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Duration
+          - generic [ref=e86]: 6 days
+        - generic [ref=e87]:
+          - generic [ref=e88]: Season
+          - generic [ref=e89]: Jun — Oct
+        - generic [ref=e90]:
+          - generic [ref=e91]: Max altitude
+          - generic [ref=e92]: 2800 m
+        - generic [ref=e93]:
+          - generic [ref=e94]: From
+          - generic [ref=e95]: 80 000 ₽
+      - generic:
+        - generic: No. 01 — Overview
+        - blockquote: "\"You measure Kyrgyzstan in lake colors, not kilometers.\""
+        - generic: — Galya, team coordinator (Tripster · 4.9 · 535 travelers)
+        - generic:
+          - generic:
+            - generic: D01
+            - generic: "Bishkek: transfer, Ala-Too square, welcome dinner"
+          - generic:
+            - generic: D02
+            - generic: Burana Tower, Balykchy lunch, eagle-hunter show, Skazka canyon, yurt camp by Issyk-Kul
+          - generic:
+            - generic: D03
+            - generic: Borskoon gorge, Champagne falls, Jeti-Ögüz red rocks, horse trek to Maiden's Tears, Karakol
+          - generic:
+            - generic: D04
+            - generic: Grigorievka gorge, trout farm, Cholpon-Ata, Issyk-Kul boat cruise, hot springs
+          - generic:
+            - generic: D05
+            - generic: Drive to Bishkek, merino felt-weaving masterclass, farewell dinner
+          - generic:
+            - generic: D06
+            - generic: Osh bazaar morning, transfer to airport (13:00)
+        - link "Hold a place →":
+          - /url: "#"
+          - generic: Hold a place
+          - generic: →
+  - generic [ref=e98]:
+    - generic [ref=e100]:
+      - text: § 02 — OUR APPROACH
+      - heading "Four promises we refuse to break." [level=2] [ref=e101]
+    - generic [ref=e102]:
+      - generic [ref=e104]:
+        - generic [ref=e105]: § I
+        - heading "We pay guides by the day, not the head." [level=4] [ref=e106]
+        - generic [ref=e107]: Гидам платим по дням, а не по людям.
+        - paragraph [ref=e108]: Our lead guides earn a predictable salary across the season, so a rainy day doesn't cost them anything. Tips go straight to the host households.
+      - generic [ref=e110]:
+        - generic [ref=e111]: § II
+        - heading "Groups are capped at fourteen." [level=4] [ref=e112]
+        - generic [ref=e113]: Группа не больше четырнадцати.
+        - paragraph [ref=e114]: A Sprinter seats fourteen comfortably and a yurt camp can host the same. Past that, the family ends up eating separately — which we refuse.
+      - generic [ref=e116]:
+        - generic [ref=e117]: § III
+        - heading "Every itinerary has a rest moment." [level=4] [ref=e118]
+        - generic [ref=e119]: В каждом маршруте есть передышка.
+        - paragraph [ref=e120]: Not a bonus hike. A real pause — hot springs on Day 4, a slow yurt evening on Day 2, a free afternoon in Bishkek on Day 5.
+      - generic [ref=e122]:
+        - generic [ref=e123]: § IV
+        - heading "1.5% of each booking funds pasture repair." [level=4] [ref=e124]
+        - generic [ref=e125]: 1,5% с каждого бронирования — на пастбища.
+        - paragraph [ref=e126]: We contribute to the Jaichy Union's overgrazing recovery program in the Suusamyr and Arpa valleys. It's small. It's consistent.
+  - generic [ref=e128]:
+    - generic [ref=e130]:
+      - generic [ref=e131]: § 03
+      - heading "The people you travel with" [level=2] [ref=e132]
+      - generic [ref=e133]: Four hosts on the All Colors loop
+    - generic [ref=e135]:
+      - generic [ref=e137]:
+        - img "Galya" [ref=e139]
+        - heading "Galya" [level=4] [ref=e140]
+        - generic [ref=e141]: Галя
+        - generic [ref=e142]: Team coordinator · Bishkek
+        - paragraph [ref=e143]: Loves Kyrgyzstan and Turkey, hosts the All Colors of Kyrgyzstan team. Tripster rating 4.9, 535 travelers, two years on the platform.
+      - generic [ref=e145]:
+        - img "Local driver" [ref=e147]
+        - heading "Local driver" [level=4] [ref=e148]
+        - generic [ref=e149]: Местный водитель
+        - generic [ref=e150]: Sprinter · road captain
+        - paragraph [ref=e151]: Drives the Sprinter minibus the whole route — Bishkek to Karakol and back. Knows every viewpoint, every detour, every place to stop for fresh trout.
+      - generic [ref=e153]:
+        - img "Berkutchi host" [ref=e155]
+        - heading "Berkutchi host" [level=4] [ref=e156]
+        - generic [ref=e157]: Беркутчи
+        - generic [ref=e158]: Eagle hunter · Issyk-Kul
+        - paragraph [ref=e159]: Hereditary eagle hunter from the south shore. Runs the demo on Day 2 — the bird, the lure, the call back to the glove. Twenty-plus years on the saddle.
+      - generic [ref=e161]:
+        - img "Felt master" [ref=e163]
+        - heading "Felt master" [level=4] [ref=e164]
+        - generic [ref=e165]: Мастерица войлока
+        - generic [ref=e166]: Merino weaving · Day 5
+        - paragraph [ref=e167]: One of the senior women in the regional felt cooperative. Hosts the Day 5 masterclass — merino wool, traditional patterns, hands-on shyrdak.
+  - generic [ref=e169]:
+    - generic [ref=e171]:
+      - generic [ref=e172]: § 04
+      - heading "From the journal" [level=2] [ref=e173]
+      - generic [ref=e174]: Updated weekly
+    - generic [ref=e176]:
+      - article [ref=e178]:
+        - img "Why we built the All Colors loop around Issyk-Kul" [ref=e180]
+        - text: Field note · 5 min read
+        - heading "Why we built the All Colors loop around Issyk-Kul" [level=3] [ref=e181]
+        - text: By Galya · Spring 2026
+        - paragraph [ref=e182]: Six days is the sweet spot between a flyover and a long expedition. We pace the lake so each day belongs to one thing — Burana, then canyon, then horses, then water.
+      - article [ref=e184]:
+        - 'img "The berkutchi: a working bond, not a show" [ref=e186]'
+        - text: Tradition · 4 min read
+        - 'heading "The berkutchi: a working bond, not a show" [level=3] [ref=e187]'
+        - text: By the Bokonbaevo team
+        - paragraph [ref=e188]: The eagle comes back to the glove because the hunter kept his word — fed her, walked her, never broke routine. The demo on Day 2 isn't staged. The bond is real.
+      - article [ref=e190]:
+        - img "What you actually make at the Day 5 felt masterclass" [ref=e192]
+        - text: Craft · 3 min read
+        - heading "What you actually make at the Day 5 felt masterclass" [level=3] [ref=e193]
+        - text: By the kitchen, Kochkor
+        - paragraph [ref=e194]: Merino wool, hot water, a bamboo mat and your hands. By the end of the session you walk out with a small shyrdak square — not a souvenir from a shop, a thing you made.
+  - contentinfo [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - generic [ref=e200]: Kyrgyz Dream Trip
+          - paragraph [ref=e201]: A small tour outfit from Bishkek. We build journeys we would take ourselves, with people we would invite home.
+          - text: Бишкек · Каракол · Ош
+        - generic [ref=e202]:
+          - heading "Journeys" [level=5] [ref=e203]
+          - link "Song-Kul" [ref=e204] [cursor=pointer]:
+            - /url: "#"
+          - link "Ala-Archa & Karakol" [ref=e205] [cursor=pointer]:
+            - /url: "#"
+          - link "Eagle winter" [ref=e206] [cursor=pointer]:
+            - /url: "#"
+          - link "Custom itinerary" [ref=e207] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e208]:
+          - heading "Company" [level=5] [ref=e209]
+          - link "Our approach" [ref=e210] [cursor=pointer]:
+            - /url: "#"
+          - link "Guides" [ref=e211] [cursor=pointer]:
+            - /url: "#"
+          - link "Journal" [ref=e212] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e213] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e214]:
+          - heading "Contact" [level=5] [ref=e215]
+          - link "hello@kyrgyzdream.trip" [ref=e216] [cursor=pointer]:
+            - /url: "#"
+          - link "+996 312 88 44 20" [ref=e217] [cursor=pointer]:
+            - /url: "#"
+          - link "Ibraimova 24, Bishkek" [ref=e218] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram · Telegram" [ref=e219] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e220]:
+        - generic [ref=e221]: © 2026 KDT LLC · Kyrgyz Tourism Assn. member
+        - generic [ref=e222]: Crafted in Bishkek · Сделано с любовью
+  - button "⊞ Tweaks" [ref=e223] [cursor=pointer]

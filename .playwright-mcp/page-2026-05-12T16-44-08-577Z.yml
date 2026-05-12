@@ -1,0 +1,43 @@
+- generic [ref=e4]:
+  - generic [ref=e10]:
+    - link "Перейти на главную страницу" [ref=e12] [cursor=pointer]:
+      - /url: /
+      - img [ref=e13]:
+        - img [ref=e14]
+    - generic [ref=e27]:
+      - generic [ref=e31]:
+        - img [ref=e33]
+        - textbox "Куда вы собираетесь?" [ref=e35]
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Экскурсии" [ref=e40] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e41]:
+          - link "Туры" [ref=e42] [cursor=pointer]:
+            - /url: /tours/
+        - listitem [ref=e43]:
+          - link "Аудиогиды" [ref=e44] [cursor=pointer]:
+            - /url: https://promo.tripster.ru/audioguides?utm_campaign=site_header&utm_medium=main_web&utm_source=experience_tripster
+      - navigation [ref=e45]:
+        - generic "Избранное" [ref=e46]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: /favorites/
+            - img [ref=e48]
+        - button "Войти" [ref=e52] [cursor=pointer]:
+          - generic [ref=e54]: Войти
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]: Cookies for your comfort
+      - text: We use mandatory cookies to load the site correctly and optional cookies to improve Tripster and marketing. By authorising their use, you agree to our
+      - link "cookie policy" [ref=e59] [cursor=pointer]:
+        - /url: /about/cookie
+    - generic [ref=e60]:
+      - button "Accept all" [ref=e61] [cursor=pointer]:
+        - generic [ref=e63]: Accept all
+      - button "Open settings" [ref=e64] [cursor=pointer]:
+        - generic [ref=e66]: Open settings
+      - generic [ref=e68]:
+        - radio "Ру" [ref=e69]
+        - generic [ref=e70]: Ру
+        - radio "En" [checked] [ref=e71]
+        - generic [ref=e72]: En

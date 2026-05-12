@@ -1,0 +1,1246 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e10]:
+      - link "Перейти на главную страницу" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img [ref=e13]:
+          - img [ref=e14]
+      - generic [ref=e27]:
+        - generic [ref=e31]:
+          - img [ref=e33]
+          - textbox "Куда вы собираетесь?" [ref=e35]
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - link "Экскурсии" [ref=e40] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e41]:
+            - generic [ref=e73]: Туры
+          - listitem [ref=e43]:
+            - link "Аудиогиды" [ref=e44] [cursor=pointer]:
+              - /url: https://promo.tripster.ru/audioguides?utm_campaign=site_header&utm_medium=main_web&utm_source=experience_tripster
+        - navigation [ref=e45]:
+          - generic "Избранное" [ref=e46]:
+            - link [ref=e47] [cursor=pointer]:
+              - /url: /favorites/
+              - img [ref=e48]
+          - button "Войти" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]: Войти
+    - generic [ref=e75]:
+      - generic [ref=e77]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - img "Фото 1" [ref=e82] [cursor=pointer]
+            - img "Фото 2" [ref=e84] [cursor=pointer]
+            - img "Фото 3" [ref=e86] [cursor=pointer]
+            - img "Фото 4" [ref=e88] [cursor=pointer]
+            - img "Фото 5" [ref=e90] [cursor=pointer]
+          - button "Добавить в избранное" [ref=e92] [cursor=pointer]:
+            - img [ref=e93]
+            - generic [ref=e95]: В избранное
+          - button "56 фото" [ref=e96] [cursor=pointer]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: 56 фото
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - navigation [ref=e104]:
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "Кыргызстан" [ref=e107] [cursor=pointer]:
+                    - /url: /tours/kyrgyzstan/
+                  - generic [ref=e108]: /
+                - listitem [ref=e109]:
+                  - link "Средняя Азия" [ref=e110] [cursor=pointer]:
+                    - /url: /tours/kyrgyzstan/srednyaya-aziya-srednyaa-aziya/
+                  - generic [ref=e111]: /
+                - listitem [ref=e112]:
+                  - link "Активные туры" [ref=e113] [cursor=pointer]:
+                    - /url: /tours/tajikistan/srednyaya-aziya-srednyaa-aziya/aktivnye/
+                  - generic [ref=e114]: /
+                - listitem [ref=e115]:
+                  - generic [ref=e116]: Тур
+            - generic [ref=e117]:
+              - 'heading "Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах" [level=1] [ref=e119]'
+              - generic [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 5,0
+                - generic [ref=e122]:
+                  - 'img "Рейтинг: 5 из 5" [ref=e124]':
+                    - generic [ref=e125]:
+                      - img [ref=e126]
+                      - img [ref=e128]
+                      - img [ref=e130]
+                      - img [ref=e132]
+                      - img [ref=e134]
+                    - generic [ref=e136]:
+                      - img [ref=e137]
+                      - img [ref=e139]
+                      - img [ref=e141]
+                      - img [ref=e143]
+                      - img [ref=e145]
+                  - generic [ref=e147]: 5 отзывов, 9 посетили
+              - generic [ref=e148]:
+                - generic [ref=e151]:
+                  - img [ref=e152]
+                  - paragraph [ref=e155]: "Мы проедем верхом по самым живописным и уединённым уголкам Кыргызстана! Вас ждут горные ущелья, еловые леса, озёра и бескрайние степи. Мы искупаемся в термальных источниках в закатном солнце, будем пробовать домашнюю еду, приготовленную с любовью, делать головокружительные кадры и наслаждаться единением с природой. Каждый день — как кадр из художественного фильма: лошади, солнце, пыль от копыт, тишина и блики на водной глади водоёмов, забота местных жителей и свобода, которую дарит дорога. А жить мы будем в этнодомах, юртах, панорамных куполах, доме с бассейном и даже в капсуле — такого вы точно не пробовали!"
+                - generic [ref=e157]:
+                  - button "Наталья" [ref=e158] [cursor=pointer]:
+                    - img "Наталья" [ref=e160]
+                  - generic [ref=e161]:
+                    - button "Наталья, Представитель команды гидов" [ref=e162] [cursor=pointer]
+                    - button "Напишите мне" [ref=e163] [cursor=pointer]:
+                      - generic [ref=e165]: Напишите мне
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e168]:
+                    - img [ref=e169]
+                    - paragraph [ref=e174]: До 16 человек
+                  - generic [ref=e175]:
+                    - img [ref=e176]
+                    - paragraph [ref=e179]: 6 дней
+                  - generic [ref=e180]:
+                    - img [ref=e181]
+                    - paragraph [ref=e189]: Можно с детьми
+                - generic [ref=e191]:
+                  - img [ref=e192]
+                  - paragraph [ref=e196]: На русском языке
+          - generic [ref=e197]:
+            - heading "Программа" [level=3] [ref=e198]
+            - generic [ref=e199]: "Начало тура: аэропорт Манас, Бишкек, 8:00"
+            - generic [ref=e200]: "Финиш: аэропорт Манас, Бишкек, 12:00"
+            - generic [ref=e202]:
+              - generic [ref=e203] [cursor=pointer]:
+                - heading "День 1. В ритме горного Чон-Кемина" [level=3] [ref=e205]
+                - img [ref=e207]
+              - generic [ref=e212]:
+                - generic [ref=e214]:
+                  - 'img "Фото отзыва 1: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e216] [cursor=pointer]'
+                  - 'img "Фото отзыва 2: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e218] [cursor=pointer]'
+                  - 'img "Фото отзыва 3: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e220] [cursor=pointer]'
+                  - 'img "Фото отзыва 4: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e222] [cursor=pointer]'
+                - generic [ref=e223]:
+                  - generic [ref=e225] [cursor=pointer]:
+                    - paragraph [ref=e226]: "Встречаемся и отправляемся навстречу горам, в атмосферный этнохаус, построенный с душой местной семьей несколькими поколениями ранее. После сытного домашнего обеда вас ждёт первая конная прогулка до панорамной точки. Это мягкое погружение в ритм тура: вы привыкаете к седлу, ловите вайб и чувствуете, как дыхание лошади настраивает вас на нужную волну. Вечером — уют, тишина, звёзды и предвкушение следующего дня."
+                    - paragraph [ref=e227]: Время в пути сегодня — 4 часа.
+                  - generic [ref=e229]: Ещё
+            - generic [ref=e232] [cursor=pointer]:
+              - heading "День 2. Озеро Сутуу-Булак и технологичные капсулы с видом на Иссык-Куль" [level=3] [ref=e234]
+              - img [ref=e236]
+            - generic [ref=e240] [cursor=pointer]:
+              - heading "День 3. Аксайский каньон, заселение в юрты, конная прогулка, отдых в горячих источниках" [level=3] [ref=e242]
+              - img [ref=e244]
+            - generic [ref=e248] [cursor=pointer]:
+              - heading "День 4. Путь к озеру Сон-Кёль, размещение в панорамных куполах" [level=3] [ref=e250]
+              - img [ref=e252]
+            - generic [ref=e256] [cursor=pointer]:
+              - heading "День 5. Прогулка верхом, переезд в Бишкек, отдых в гостевом доме" [level=3] [ref=e258]
+              - img [ref=e260]
+            - generic [ref=e264] [cursor=pointer]:
+              - heading "День 6. Завершение тура, отъезд" [level=3] [ref=e266]
+              - img [ref=e268]
+          - generic [ref=e270]:
+            - heading "Организационные детали" [level=3] [ref=e271]
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - generic [ref=e274] [cursor=pointer]:
+                  - heading "Питание" [level=3] [ref=e276]
+                  - img [ref=e278]
+                - paragraph [ref=e285]: "В стоимость включено трёхразовое питание. Основа меню — традиционная кыргызская кухня: куурдак, бешбармак, манты, лагман, боорсоки, каттама. Питание организовано преимущественно домашнее (приготовление в печи), возможны приёмы пищи в кафе. Вегетарианское меню доступно по предварительному запросу."
+              - generic [ref=e287] [cursor=pointer]:
+                - heading "Транспорт" [level=3] [ref=e289]
+                - img [ref=e291]
+              - generic [ref=e294] [cursor=pointer]:
+                - heading "Возраст участников" [level=3] [ref=e296]
+                - img [ref=e298]
+              - generic [ref=e301] [cursor=pointer]:
+                - heading "Виза" [level=3] [ref=e303]
+                - img [ref=e305]
+              - generic [ref=e308] [cursor=pointer]:
+                - heading "Уровень сложности" [level=3] [ref=e310]
+                - img [ref=e312]
+              - generic [ref=e315] [cursor=pointer]:
+                - heading "Связь и интернет" [level=3] [ref=e317]
+                - img [ref=e319]
+          - generic [ref=e321]:
+            - heading "Включено в стоимость" [level=3] [ref=e322]
+            - list [ref=e324]:
+              - listitem [ref=e325]: Проживание
+              - listitem [ref=e326]: Завтраки, обеды и ужины (кроме Бишкека)
+              - listitem [ref=e327]: Питьевая вода в машине на протяжении всего тура
+              - listitem [ref=e328]: Все переезды по программе
+              - listitem [ref=e329]: Трансфер из/в аэропорт
+              - listitem [ref=e330]: Сопровождение турлидером
+              - listitem [ref=e331]: Входные билеты в природные парки по программе
+              - listitem [ref=e332]: Конные прогулки по программе
+              - listitem [ref=e333]: Посещение термальных источников по программе
+              - listitem [ref=e334]: Медицинская аптечка
+              - listitem [ref=e335]: Памятные сувениры
+            - heading "Не включено в стоимость" [level=4] [ref=e336]
+            - list [ref=e338]:
+              - listitem [ref=e339]: Билеты до Бишкека и обратно в ваш город
+              - listitem [ref=e340]: Питание в Бишкеке
+              - listitem [ref=e341]: Страховка (по желанию)
+              - listitem [ref=e342]: 1-местное размещение
+              - listitem [ref=e343]: Дополнительные индивидуальные расходы (около $20-40)
+          - generic [ref=e344]:
+            - heading "Проживание" [level=3] [ref=e345]
+            - generic [ref=e346]:
+              - generic [ref=e348]:
+                - generic [ref=e349] [cursor=pointer]:
+                  - heading "Колоритные гостевые дома" [level=3] [ref=e351]
+                  - img [ref=e353]
+                - generic [ref=e358]:
+                  - generic [ref=e360]:
+                    - 'img "Фото отзыва 1: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e362] [cursor=pointer]'
+                    - 'img "Фото отзыва 2: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e364] [cursor=pointer]'
+                    - 'img "Фото отзыва 3: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e366] [cursor=pointer]'
+                    - 'img "Фото отзыва 4: авторский тур \"Дух свободы: конный тур в самых атмосферных локациях Кыргызстана с проживанием в необычных местах\"" [ref=e368] [cursor=pointer]'
+                  - generic [ref=e369]:
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: Гостевой дом
+                      - generic [ref=e372]: ·
+                      - generic [ref=e373]: стандартный
+                    - paragraph [ref=e376]: "2-местное размещение со всеми удобствами: современные санузлы, наличие Wi-Fi. Подселение к другим участницам нашего тура. 1-местное размещение за доплату."
+              - generic [ref=e379] [cursor=pointer]:
+                - heading "Глэмпинги и технологичные панорамные капсулы" [level=3] [ref=e381]
+                - img [ref=e383]
+              - generic [ref=e387] [cursor=pointer]:
+                - heading "Юрточный лагерь" [level=3] [ref=e389]
+                - img [ref=e391]
+          - generic [ref=e393]:
+            - heading "Отзывы" [level=3] [ref=e394]
+            - generic [ref=e398]:
+              - generic [ref=e399]: 5,0
+              - generic [ref=e400]:
+                - 'img "Рейтинг: 5 из 5" [ref=e401]':
+                  - generic [ref=e402]:
+                    - img [ref=e403]
+                    - img [ref=e405]
+                    - img [ref=e407]
+                    - img [ref=e409]
+                    - img [ref=e411]
+                  - generic [ref=e413]:
+                    - img [ref=e414]
+                    - img [ref=e416]
+                    - img [ref=e418]
+                    - img [ref=e420]
+                    - img [ref=e422]
+                - generic [ref=e424]: 5 отзывов, 9 посетили
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - generic [ref=e432]: С
+                    - generic [ref=e434]: Сергей
+                  - generic [ref=e435]:
+                    - 'img "Рейтинг: 5 из 5" [ref=e436]':
+                      - generic [ref=e437]:
+                        - img [ref=e438]
+                        - img [ref=e440]
+                        - img [ref=e442]
+                        - img [ref=e444]
+                        - img [ref=e446]
+                    - generic [ref=e448]: 11 декабря 2025
+                  - generic [ref=e449]:
+                    - generic [ref=e452] [cursor=pointer]: Тур получился очень приятный, ездили вдвоем с женой и остались довольны. Наталья всегда внимательно отвечала на все наши вопросы, было видно что она вкладывает душу в свое дело. Иногда угощала нас разными ягодами и фруктами, а места для ночевок подбирала просто отличные. Во всех местах все работало без перебоев, было очень уютно и красиво. Страна действительно замечательная, однозначно стоит ее посетить. Конечно, погода иногда подводила и планы срывались, но Наталья быстро придумывала замену и предлагала что-то новое и приятное, за это отдельное спасибо ей.
+                    - generic [ref=e453] [cursor=pointer]: Ещё
+                - generic [ref=e454]:
+                  - generic [ref=e455]:
+                    - generic [ref=e459]: Е
+                    - generic [ref=e461]: Елена
+                  - generic [ref=e462]:
+                    - 'img "Рейтинг: 5 из 5" [ref=e463]':
+                      - generic [ref=e464]:
+                        - img [ref=e465]
+                        - img [ref=e467]
+                        - img [ref=e469]
+                        - img [ref=e471]
+                        - img [ref=e473]
+                    - generic [ref=e475]: 28 октября 2025
+                  - generic [ref=e479]: Кыргызстан — просто потрясающее место с удивительной природой. Люди там такие добрые и открытые, не зря про их гостеприимство столько говорят. Наташа — отличный организатор, благодаря ей наше путешествие запомнилось надолго. Она сумела показать нам страну с самых лучших сторон. Очень благодарна! 🌹
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - generic [ref=e485]: Е
+                    - generic [ref=e487]: Екатерина
+                  - generic [ref=e488]:
+                    - 'img "Рейтинг: 5 из 5" [ref=e489]':
+                      - generic [ref=e490]:
+                        - img [ref=e491]
+                        - img [ref=e493]
+                        - img [ref=e495]
+                        - img [ref=e497]
+                        - img [ref=e499]
+                    - generic [ref=e501]: 27 октября 2025
+                  - generic [ref=e505]: Очень благодарна Наташе за эти незабываемые эмоции! Всё было продумано отлично — и транспорт, и маршрут без единого сбоя. Удалось насладиться потрясающей природой Кыргызстана, о которой раньше даже и не думала — горы, озёра, вкусная еда и просто замечательные люди. Отдых вышел не только насыщенным, но и по-настоящему тёплым для души. Уже строю планы на следующую поездку вместе с вами ❤️
+              - generic [ref=e506]:
+                - button "Все 5 отзывов" [ref=e508] [cursor=pointer]
+                - paragraph [ref=e510]:
+                  - text: Написать отзыв можно только после посещения.
+                  - generic [ref=e511]: Как мы работаем с отзывами
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - link "Наталья" [ref=e515] [cursor=pointer]:
+                  - /url: /guide/2310738/
+                - paragraph [ref=e516]: Представитель команды гидов
+                - list [ref=e517]:
+                  - listitem [ref=e518]:
+                    - 'img "Рейтинг: 5 из 5" [ref=e519]':
+                      - img [ref=e521]
+                      - img [ref=e524]
+                    - generic [ref=e526]: 5,0
+                  - listitem [ref=e527]:
+                    - img [ref=e528]
+                    - text: 11 посетили
+                  - listitem [ref=e533]:
+                    - img [ref=e534]
+                    - text: 10 месяцев на Трипстере
+              - generic [ref=e537]:
+                - generic [ref=e538] [cursor=pointer]:
+                  - generic [ref=e539]: "Привет, меня зовут Наташа. Я не просто люблю путешествовать — я этим живу. Мне важно находить настоящую красоту: не только в пейзажах, но и в деталях — в тишине утренних гор, в уюте вечернего чая на веранде при свете фонариков, в мягком пледе тёплого дома после дороги. Умение сочетать высококлассный комфорт с самыми нетуристическими, аутентичными местами — это про меня. Меньше суеты, больше свободы — главная концепция моих путешествий. Комфортные красивые внедорожники, живописные дороги, тишина, просторы, горы, озёра. Вместо обычных отелей — атмосферные локации с характером, где можно выдохнуть, залипнуть на вид, и почувствовать, что ты в самом сердце природы. Я лично отбираю каждую проверенную мною локацию как для себя. Ты не найдёшь их в стандартных турах. Местами, куда мы заедем, не делятся массово — их рекомендуют шёпотом. Присоединяйся. Доверься маршруту — он уже создан с душой."
+                  - generic [ref=e541]: Ещё
+                - generic [ref=e542]:
+                  - button "Задать вопрос" [ref=e543] [cursor=pointer]:
+                    - generic [ref=e545]: Задать вопрос
+                  - link "Все предложения · 2" [ref=e546] [cursor=pointer]:
+                    - /url: /guide/2310738/
+            - complementary [ref=e547]:
+              - link "Наталья" [ref=e548] [cursor=pointer]:
+                - /url: /guide/2310738/
+                - img "Наталья" [ref=e550]
+          - generic [ref=e551]:
+            - heading "Доступные даты" [level=3] [ref=e552]
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - generic [ref=e556]: Май
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - generic [ref=e559]:
+                      - generic [ref=e560]: 23 сб — 28 чт
+                      - generic [ref=e561]: $ 1300 за одного
+                    - button "Выбрать" [ref=e562] [cursor=pointer]
+                  - generic [ref=e563]:
+                    - generic [ref=e564]:
+                      - generic [ref=e565]: 30 сб — 4 чт
+                      - generic [ref=e566]: $ 1300 за одного
+                    - button "Выбрать" [ref=e567] [cursor=pointer]
+              - generic [ref=e569]:
+                - generic [ref=e571]: Июнь
+                - generic [ref=e572]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]:
+                      - generic [ref=e575]: 6 сб — 11 чт
+                      - generic [ref=e576]: $ 1300 за одного
+                    - button "Выбрать" [ref=e577] [cursor=pointer]
+                  - generic [ref=e578]:
+                    - generic [ref=e579]:
+                      - generic [ref=e580]: 13 сб — 18 чт
+                      - generic [ref=e581]: $ 1300 за одного
+                    - button "Выбрать" [ref=e582] [cursor=pointer]
+                  - generic [ref=e583]:
+                    - generic [ref=e584]:
+                      - generic [ref=e585]: 20 сб — 25 чт
+                      - generic [ref=e586]: $ 1300 за одного
+                    - button "Выбрать" [ref=e587] [cursor=pointer]
+                  - generic [ref=e588]:
+                    - generic [ref=e589]:
+                      - generic [ref=e590]: 27 сб — 2 чт
+                      - generic [ref=e591]: $ 1300 за одного
+                    - button "Выбрать" [ref=e592] [cursor=pointer]
+              - generic [ref=e594]:
+                - generic [ref=e596]: Июль
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]:
+                      - generic [ref=e600]: 4 сб — 9 чт
+                      - generic [ref=e601]: $ 1300 за одного
+                    - button "Выбрать" [ref=e602] [cursor=pointer]
+                  - generic [ref=e603]:
+                    - generic [ref=e604]:
+                      - generic [ref=e605]: 11 сб — 16 чт
+                      - generic [ref=e606]: $ 1300 за одного
+                    - button "Выбрать" [ref=e607] [cursor=pointer]
+              - generic [ref=e608]:
+                - button "Все даты" [ref=e609] [cursor=pointer]:
+                  - generic [ref=e611]: Все даты
+                - paragraph [ref=e613]: Доступны с 23 мая по 19 ноября
+          - generic [ref=e614]:
+            - heading "Полезная информация" [level=3] [ref=e615]
+            - paragraph [ref=e618]: После внесения предоплаты на сайте необходимо перевести организатору напрямую 20% от стоимости тура на бронирование транспорта и мест размещения.
+          - generic [ref=e619]:
+            - heading "Условия бронирования" [level=3] [ref=e620]
+            - generic [ref=e622]:
+              - generic [ref=e623]:
+                - img [ref=e625]
+                - generic [ref=e629]: Предоплата 15%, остальное — организатору напрямую
+              - generic [ref=e630]:
+                - img [ref=e632]
+                - generic [ref=e635]: Для предоплаты на Трипстере принимаем карты российских и иностранных банков
+              - generic [ref=e636]:
+                - img [ref=e638]
+                - generic [ref=e641]: Бесплатная отмена за 48 часов
+              - generic [ref=e642]:
+                - img [ref=e644]
+                - generic [ref=e647]: Задать вопросы организатору можно в заказе до предоплаты
+        - generic [ref=e649]:
+          - generic [ref=e651]:
+            - paragraph [ref=e652]: $ 1300
+            - paragraph [ref=e653]: за одного
+          - generic [ref=e654]:
+            - button "Выбрать дату" [ref=e655] [cursor=pointer]:
+              - generic [ref=e657]: Выбрать дату
+            - button "Задать вопрос" [ref=e658] [cursor=pointer]:
+              - generic [ref=e660]: Задать вопрос
+          - generic [ref=e662]:
+            - img [ref=e664]
+            - paragraph [ref=e666]:
+              - text: "Гарантия лучшей цены: вернём разницу, если найдёте дешевле."
+              - link "Подробнее" [ref=e667] [cursor=pointer]:
+                - /url: https://experience.tripster.ru/about/guarantee/
+                - generic [ref=e668]: Подробнее
+        - generic [ref=e670]:
+          - heading "Другие предложения в Средней Азии" [level=2] [ref=e671]
+          - generic [ref=e672]:
+            - generic [ref=e673]:
+              - 'link "Фото - Экскурсия: \"Все краски Кыргызстана: автотур вдоль озера Иссык-Куль с конной прогулкой и беркут-шоу\" 6 дней авторский тур" [ref=e675] [cursor=pointer]':
+                - /url: /experience/106386/
+                - 'img "Фото - Экскурсия: \"Все краски Кыргызстана: автотур вдоль озера Иссык-Куль с конной прогулкой и беркут-шоу\"" [ref=e677]'
+                - generic [ref=e678]: 6 дней
+                - img [ref=e680]
+                - generic [ref=e682]: авторский тур
+              - generic [ref=e683]:
+                - link "Галя Галя" [ref=e684] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/1007244/
+                  - img "Галя" [ref=e685]
+                  - text: Галя
+                - link "4,94 Рейтинг организатора" [ref=e687] [cursor=pointer]:
+                  - /url: /guide/1007244
+                  - generic [ref=e688]:
+                    - text: 4,94
+                    - generic [ref=e689]:
+                      - generic [ref=e690]:
+                        - img [ref=e691]
+                        - img [ref=e693]
+                        - img [ref=e695]
+                        - img [ref=e697]
+                        - img [ref=e699]
+                      - generic [ref=e701]:
+                        - img [ref=e702]
+                        - img [ref=e704]
+                        - img [ref=e706]
+                        - img [ref=e708]
+                        - img [ref=e710]
+                  - paragraph [ref=e712]: Рейтинг организатора
+              - 'link "Все краски Кыргызстана: автотур вдоль озера Иссык-Куль с конной прогулкой и беркут-шоу Посетить мастер-класс по ткачеству, увидеть ущелье Джеты-Огуз и исследовать верхом местные ландшафты" [ref=e714] [cursor=pointer]':
+                - /url: /experience/106386/
+                - generic [ref=e715]:
+                  - text: "Все краски Кыргызстана: автотур вдоль озера Иссык-Куль с конной прогулкой и беркут-шоу"
+                  - paragraph [ref=e716]: Посетить мастер-класс по ткачеству, увидеть ущелье Джеты-Огуз и исследовать верхом местные ландшафты
+              - list [ref=e717]:
+                - listitem [ref=e718]:
+                  - link "6–11 июн" [ref=e719] [cursor=pointer]:
+                    - /url: /experience/106386/#dates
+                - listitem [ref=e720]:
+                  - link "12–17 июн" [ref=e721] [cursor=pointer]:
+                    - /url: /experience/106386/#dates
+                - listitem [ref=e722]:
+                  - link "18–23 июн" [ref=e723] [cursor=pointer]:
+                    - /url: /experience/106386/#dates
+                - listitem [ref=e724]:
+                  - link "..." [ref=e725] [cursor=pointer]:
+                    - /url: /experience/106386/#dates
+              - link "80 000 ₽ за одного" [ref=e727] [cursor=pointer]:
+                - /url: /experience/106386/
+                - generic [ref=e728]:
+                  - generic [ref=e730]: 80 000 ₽
+                  - generic [ref=e731]: за одного
+            - generic [ref=e732]:
+              - 'link "Фото - Экскурсия: \"В Кыргызстан за эмоциями: конная прогулка, горячие источники, круиз и треккинг к водопадам\" скидка 15% 5 дней авторский тур" [ref=e734] [cursor=pointer]':
+                - /url: /experience/57079/
+                - 'img "Фото - Экскурсия: \"В Кыргызстан за эмоциями: конная прогулка, горячие источники, круиз и треккинг к водопадам\"" [ref=e736]'
+                - generic [ref=e737]:
+                  - text: скидка
+                  - generic [ref=e738]: 15%
+                - generic [ref=e739]: 5 дней
+                - img [ref=e741]
+                - generic [ref=e743]: авторский тур
+              - generic [ref=e744]:
+                - link "Александр Александр" [ref=e745] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/840700/
+                  - img "Александр" [ref=e746]
+                  - text: Александр
+                - generic [ref=e747]:
+                  - link "5,0" [ref=e748] [cursor=pointer]:
+                    - /url: /experience/57079/#reviews
+                    - generic [ref=e749]: 5,0
+                    - generic "5 баллов по 8 отзывам" [ref=e750]:
+                      - generic [ref=e751]:
+                        - img [ref=e752]
+                        - img [ref=e754]
+                        - img [ref=e756]
+                        - img [ref=e758]
+                        - img [ref=e760]
+                      - generic [ref=e762]:
+                        - img [ref=e763]
+                        - img [ref=e765]
+                        - img [ref=e767]
+                        - img [ref=e769]
+                        - img [ref=e771]
+                  - link "8 отзывов" [ref=e773] [cursor=pointer]:
+                    - /url: /experience/57079/#reviews
+              - 'link "В Кыргызстан за эмоциями: конная прогулка, горячие источники, круиз и треккинг к водопадам Увидеть беркутиную охоту, искупаться в Иссык-Куле и попробовать кыргызские блюда" [ref=e775] [cursor=pointer]':
+                - /url: /experience/57079/
+                - generic [ref=e776]:
+                  - text: "В Кыргызстан за эмоциями: конная прогулка, горячие источники, круиз и треккинг к водопадам"
+                  - paragraph [ref=e777]: Увидеть беркутиную охоту, искупаться в Иссык-Куле и попробовать кыргызские блюда
+              - list [ref=e778]:
+                - listitem [ref=e779]:
+                  - link "7–11 июн" [ref=e780] [cursor=pointer]:
+                    - /url: /experience/57079/#dates
+                - listitem [ref=e781]:
+                  - link "13–17 июн" [ref=e782] [cursor=pointer]:
+                    - /url: /experience/57079/#dates
+                - listitem [ref=e783]:
+                  - link "21–25 июн" [ref=e784] [cursor=pointer]:
+                    - /url: /experience/57079/#dates
+                - listitem [ref=e785]:
+                  - link "..." [ref=e786] [cursor=pointer]:
+                    - /url: /experience/57079/#dates
+              - link "84 500 ₽ 71 825 ₽ за одного" [ref=e788] [cursor=pointer]:
+                - /url: /experience/57079/
+                - generic [ref=e789]:
+                  - generic [ref=e790]: 84 500 ₽
+                  - generic [ref=e792]: 71 825 ₽
+                  - generic [ref=e793]: за одного
+            - generic [ref=e794]:
+              - 'link "Фото - Экскурсия: \"По Тянь-Шаню к озеру Иссык-Куль\" 10 дней авторский тур" [ref=e796] [cursor=pointer]':
+                - /url: /experience/37302/
+                - 'img "Фото - Экскурсия: \"По Тянь-Шаню к озеру Иссык-Куль\"" [ref=e798]'
+                - generic [ref=e799]: 10 дней
+                - img [ref=e801]
+                - generic [ref=e803]: авторский тур
+              - generic [ref=e804]:
+                - link "Николай Николай" [ref=e805] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/726323/
+                  - img "Николай" [ref=e806]
+                  - text: Николай
+                - link "4,99 Рейтинг организатора" [ref=e808] [cursor=pointer]:
+                  - /url: /guide/726323
+                  - generic [ref=e809]:
+                    - text: 4,99
+                    - generic [ref=e810]:
+                      - generic [ref=e811]:
+                        - img [ref=e812]
+                        - img [ref=e814]
+                        - img [ref=e816]
+                        - img [ref=e818]
+                        - img [ref=e820]
+                      - generic [ref=e822]:
+                        - img [ref=e823]
+                        - img [ref=e825]
+                        - img [ref=e827]
+                        - img [ref=e829]
+                        - img [ref=e831]
+                  - paragraph [ref=e833]: Рейтинг организатора
+              - link "По Тянь-Шаню к озеру Иссык-Куль Пройти по безлюдным местам, пожить в юрте и искупаться в озере-легенде" [ref=e835] [cursor=pointer]:
+                - /url: /experience/37302/
+                - generic [ref=e836]:
+                  - text: По Тянь-Шаню к озеру Иссык-Куль
+                  - paragraph [ref=e837]: Пройти по безлюдным местам, пожить в юрте и искупаться в озере-легенде
+              - list [ref=e838]:
+                - listitem [ref=e839]:
+                  - link "2–11 июл" [ref=e840] [cursor=pointer]:
+                    - /url: /experience/37302/#dates
+              - link "79 000 ₽ за одного" [ref=e842] [cursor=pointer]:
+                - /url: /experience/37302/
+                - generic [ref=e843]:
+                  - generic [ref=e845]: 79 000 ₽
+                  - generic [ref=e846]: за одного
+            - generic [ref=e847]:
+              - 'link "Фото - Экскурсия: \"Тур по главным местам Кыргызстана с проживанием в юрте: горы, водопады и марсианские виды\" 5 дней авторский тур" [ref=e849] [cursor=pointer]':
+                - /url: /experience/67369/
+                - 'img "Фото - Экскурсия: \"Тур по главным местам Кыргызстана с проживанием в юрте: горы, водопады и марсианские виды\"" [ref=e851]'
+                - generic [ref=e852]: 5 дней
+                - img [ref=e854]
+                - generic [ref=e856]: авторский тур
+              - generic [ref=e857]:
+                - link "Никита Никита" [ref=e858] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/559329/
+                  - img "Никита" [ref=e859]
+                  - text: Никита
+                - link "5,0 Рейтинг организатора" [ref=e861] [cursor=pointer]:
+                  - /url: /guide/559329
+                  - generic [ref=e862]:
+                    - text: 5,0
+                    - generic [ref=e863]:
+                      - generic [ref=e864]:
+                        - img [ref=e865]
+                        - img [ref=e867]
+                        - img [ref=e869]
+                        - img [ref=e871]
+                        - img [ref=e873]
+                      - generic [ref=e875]:
+                        - img [ref=e876]
+                        - img [ref=e878]
+                        - img [ref=e880]
+                        - img [ref=e882]
+                        - img [ref=e884]
+                  - paragraph [ref=e886]: Рейтинг организатора
+              - 'link "Тур по главным местам Кыргызстана с проживанием в юрте: горы, водопады и марсианские виды Искупаться в Иссык-Куле, побывать в каньоне Сказка и оказаться в тундре с вечными снегами" [ref=e888] [cursor=pointer]':
+                - /url: /experience/67369/
+                - generic [ref=e889]:
+                  - text: "Тур по главным местам Кыргызстана с проживанием в юрте: горы, водопады и марсианские виды"
+                  - paragraph [ref=e890]: Искупаться в Иссык-Куле, побывать в каньоне Сказка и оказаться в тундре с вечными снегами
+              - list [ref=e891]:
+                - listitem [ref=e892]:
+                  - link "4–8 июн" [ref=e893] [cursor=pointer]:
+                    - /url: /experience/67369/#dates
+                - listitem [ref=e894]:
+                  - link "10–14 июн" [ref=e895] [cursor=pointer]:
+                    - /url: /experience/67369/#dates
+                - listitem [ref=e896]:
+                  - link "16–20 июн" [ref=e897] [cursor=pointer]:
+                    - /url: /experience/67369/#dates
+              - link "80 000 ₽ за одного" [ref=e899] [cursor=pointer]:
+                - /url: /experience/67369/
+                - generic [ref=e900]:
+                  - generic [ref=e902]: 80 000 ₽
+                  - generic [ref=e903]: за одного
+            - generic [ref=e904]:
+              - 'link "Фото - Экскурсия: \"Нацпарки, каньоны, ущелья, озёра: погружение в спокойствие и тишину Казахстана\" 6 дней авторский тур" [ref=e906] [cursor=pointer]':
+                - /url: /experience/94825/
+                - 'img "Фото - Экскурсия: \"Нацпарки, каньоны, ущелья, озёра: погружение в спокойствие и тишину Казахстана\"" [ref=e908]'
+                - generic [ref=e909]: 6 дней
+                - img [ref=e911]
+                - generic [ref=e913]: авторский тур
+              - generic [ref=e914]:
+                - link "Стас Стас" [ref=e915] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/270455/
+                  - img "Стас" [ref=e916]
+                  - text: Стас
+                - generic [ref=e917]:
+                  - link "5,0" [ref=e918] [cursor=pointer]:
+                    - /url: /experience/94825/#reviews
+                    - generic [ref=e919]: 5,0
+                    - generic "5 баллов по 1 отзыву" [ref=e920]:
+                      - generic [ref=e921]:
+                        - img [ref=e922]
+                        - img [ref=e924]
+                        - img [ref=e926]
+                        - img [ref=e928]
+                        - img [ref=e930]
+                      - generic [ref=e932]:
+                        - img [ref=e933]
+                        - img [ref=e935]
+                        - img [ref=e937]
+                        - img [ref=e939]
+                        - img [ref=e941]
+                  - link "1 отзыв" [ref=e943] [cursor=pointer]:
+                    - /url: /experience/94825/#reviews
+              - 'link "Нацпарки, каньоны, ущелья, озёра: погружение в спокойствие и тишину Казахстана Погулять по безлюдным местам с инопланетными видами и искупаться в минеральных источниках" [ref=e945] [cursor=pointer]':
+                - /url: /experience/94825/
+                - generic [ref=e946]:
+                  - text: "Нацпарки, каньоны, ущелья, озёра: погружение в спокойствие и тишину Казахстана"
+                  - paragraph [ref=e947]: Погулять по безлюдным местам с инопланетными видами и искупаться в минеральных источниках
+              - list [ref=e948]:
+                - listitem [ref=e949]:
+                  - link "13–18 сент" [ref=e950] [cursor=pointer]:
+                    - /url: /experience/94825/#dates
+              - link "$ 1600 за одного" [ref=e952] [cursor=pointer]:
+                - /url: /experience/94825/
+                - generic [ref=e953]:
+                  - generic [ref=e955]: $ 1600
+                  - generic [ref=e956]: за одного
+            - generic [ref=e957]:
+              - 'link "Фото - Экскурсия: \"Тур-погружение в Кыргызстан с мастер-классом, круизом по Иссык-Кулю и глэмпингами\" скидка 15% 7 дней авторский тур" [ref=e959] [cursor=pointer]':
+                - /url: /experience/57081/
+                - 'img "Фото - Экскурсия: \"Тур-погружение в Кыргызстан с мастер-классом, круизом по Иссык-Кулю и глэмпингами\"" [ref=e961]'
+                - generic [ref=e962]:
+                  - text: скидка
+                  - generic [ref=e963]: 15%
+                - generic [ref=e964]: 7 дней
+                - img [ref=e966]
+                - generic [ref=e968]: авторский тур
+              - generic [ref=e969]:
+                - link "Александр Александр" [ref=e970] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/840700/
+                  - img "Александр" [ref=e971]
+                  - text: Александр
+                - generic [ref=e972]:
+                  - link "5,0" [ref=e973] [cursor=pointer]:
+                    - /url: /experience/57081/#reviews
+                    - generic [ref=e974]: 5,0
+                    - generic "5 баллов по 11 отзывам" [ref=e975]:
+                      - generic [ref=e976]:
+                        - img [ref=e977]
+                        - img [ref=e979]
+                        - img [ref=e981]
+                        - img [ref=e983]
+                        - img [ref=e985]
+                      - generic [ref=e987]:
+                        - img [ref=e988]
+                        - img [ref=e990]
+                        - img [ref=e992]
+                        - img [ref=e994]
+                        - img [ref=e996]
+                  - link "11 отзывов" [ref=e998] [cursor=pointer]:
+                    - /url: /experience/57081/#reviews
+              - link "Тур-погружение в Кыргызстан с мастер-классом, круизом по Иссык-Кулю и глэмпингами Научиться готовить самсу, прокатиться верхом в горах и пожить в юрте на берегу Иссык-Куля" [ref=e1000] [cursor=pointer]:
+                - /url: /experience/57081/
+                - generic [ref=e1001]:
+                  - text: Тур-погружение в Кыргызстан с мастер-классом, круизом по Иссык-Кулю и глэмпингами
+                  - paragraph [ref=e1002]: Научиться готовить самсу, прокатиться верхом в горах и пожить в юрте на берегу Иссык-Куля
+              - list [ref=e1003]:
+                - listitem [ref=e1004]:
+                  - link "6–12 июн" [ref=e1005] [cursor=pointer]:
+                    - /url: /experience/57081/#dates
+                - listitem [ref=e1006]:
+                  - link "12–18 июн" [ref=e1007] [cursor=pointer]:
+                    - /url: /experience/57081/#dates
+                - listitem [ref=e1008]:
+                  - link "20–26 июн" [ref=e1009] [cursor=pointer]:
+                    - /url: /experience/57081/#dates
+                - listitem [ref=e1010]:
+                  - link "..." [ref=e1011] [cursor=pointer]:
+                    - /url: /experience/57081/#dates
+              - link "96 000 ₽ 81 600 ₽ за одного" [ref=e1013] [cursor=pointer]:
+                - /url: /experience/57081/
+                - generic [ref=e1014]:
+                  - generic [ref=e1015]: 96 000 ₽
+                  - generic [ref=e1017]: 81 600 ₽
+                  - generic [ref=e1018]: за одного
+            - generic [ref=e1019]:
+              - 'link "Фото - Экскурсия: \"Оазисы первозданной природы: индивидуальный отдых у озера и в горах в формате «всё включено»\" 3 дня авторский тур" [ref=e1021] [cursor=pointer]':
+                - /url: /experience/83423/
+                - 'img "Фото - Экскурсия: \"Оазисы первозданной природы: индивидуальный отдых у озера и в горах в формате «всё включено»\"" [ref=e1023]'
+                - generic [ref=e1024]: 3 дня
+                - img [ref=e1026]
+                - generic [ref=e1028]: авторский тур
+              - generic [ref=e1029]:
+                - link "Жахонгир Жахонгир" [ref=e1030] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/63746/
+                  - img "Жахонгир" [ref=e1031]
+                  - text: Жахонгир
+                - link "4,95 Рейтинг организатора" [ref=e1033] [cursor=pointer]:
+                  - /url: /guide/63746
+                  - generic [ref=e1034]:
+                    - text: 4,95
+                    - generic [ref=e1035]:
+                      - generic [ref=e1036]:
+                        - img [ref=e1037]
+                        - img [ref=e1039]
+                        - img [ref=e1041]
+                        - img [ref=e1043]
+                        - img [ref=e1045]
+                      - generic [ref=e1047]:
+                        - img [ref=e1048]
+                        - img [ref=e1050]
+                        - img [ref=e1052]
+                        - img [ref=e1054]
+                        - img [ref=e1056]
+                  - paragraph [ref=e1058]: Рейтинг организатора
+              - 'link "Оазисы первозданной природы: индивидуальный отдых у озера и в горах в формате «всё включено» Отправиться вглубь пустыни Кызылкум, перезагрузиться у второго Арала и в узбекской Швейцарии" [ref=e1060] [cursor=pointer]':
+                - /url: /experience/83423/
+                - generic [ref=e1061]:
+                  - text: "Оазисы первозданной природы: индивидуальный отдых у озера и в горах в формате «всё включено»"
+                  - paragraph [ref=e1062]: Отправиться вглубь пустыни Кызылкум, перезагрузиться у второго Арала и в узбекской Швейцарии
+              - list [ref=e1063]:
+                - listitem [ref=e1064]:
+                  - link "1–3 июн" [ref=e1065] [cursor=pointer]:
+                    - /url: /experience/83423/#dates
+                - listitem [ref=e1066]:
+                  - link "15–17 июн" [ref=e1067] [cursor=pointer]:
+                    - /url: /experience/83423/#dates
+              - link "$ 500 за одного" [ref=e1069] [cursor=pointer]:
+                - /url: /experience/83423/
+                - generic [ref=e1070]:
+                  - generic [ref=e1072]: $ 500
+                  - generic [ref=e1073]: за одного
+            - generic [ref=e1074]:
+              - 'link "Фото - Экскурсия: \"Приключение в горах Тянь-Шаня и Памира: в места зеркальных озёр и живописных перевалов\" 7 дней авторский тур" [ref=e1076] [cursor=pointer]':
+                - /url: /experience/40591/
+                - 'img "Фото - Экскурсия: \"Приключение в горах Тянь-Шаня и Памира: в места зеркальных озёр и живописных перевалов\"" [ref=e1078]'
+                - generic [ref=e1079]: 7 дней
+                - img [ref=e1081]
+                - generic [ref=e1083]: авторский тур
+              - generic [ref=e1084]:
+                - link "Дмитрий Дмитрий" [ref=e1085] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/521029/
+                  - img "Дмитрий" [ref=e1086]
+                  - text: Дмитрий
+                - generic [ref=e1087]:
+                  - link "5,0" [ref=e1088] [cursor=pointer]:
+                    - /url: /experience/40591/#reviews
+                    - generic [ref=e1089]: 5,0
+                    - generic "5 баллов по 5 отзывам" [ref=e1090]:
+                      - generic [ref=e1091]:
+                        - img [ref=e1092]
+                        - img [ref=e1094]
+                        - img [ref=e1096]
+                        - img [ref=e1098]
+                        - img [ref=e1100]
+                      - generic [ref=e1102]:
+                        - img [ref=e1103]
+                        - img [ref=e1105]
+                        - img [ref=e1107]
+                        - img [ref=e1109]
+                        - img [ref=e1111]
+                  - link "5 отзывов" [ref=e1113] [cursor=pointer]:
+                    - /url: /experience/40591/#reviews
+              - 'link "Приключение в горах Тянь-Шаня и Памира: в места зеркальных озёр и живописных перевалов Прокатиться на лошадях возле озера Сон-Куль и переночевать в юрте" [ref=e1115] [cursor=pointer]':
+                - /url: /experience/40591/
+                - generic [ref=e1116]:
+                  - text: "Приключение в горах Тянь-Шаня и Памира: в места зеркальных озёр и живописных перевалов"
+                  - paragraph [ref=e1117]: Прокатиться на лошадях возле озера Сон-Куль и переночевать в юрте
+              - list [ref=e1118]:
+                - listitem [ref=e1119]:
+                  - link "15–21 авг" [ref=e1120] [cursor=pointer]:
+                    - /url: /experience/40591/#dates
+                - listitem [ref=e1121]:
+                  - link "10–16 сент" [ref=e1122] [cursor=pointer]:
+                    - /url: /experience/40591/#dates
+              - link "118 000 ₽ за одного" [ref=e1124] [cursor=pointer]:
+                - /url: /experience/40591/
+                - generic [ref=e1125]:
+                  - generic [ref=e1127]: 118 000 ₽
+                  - generic [ref=e1128]: за одного
+            - generic [ref=e1129]:
+              - 'link "Фото - Экскурсия: \"Макси-тур по Кыргызстану: экскурсии и 3 дня похода\" 11 дней авторский тур" [ref=e1131] [cursor=pointer]':
+                - /url: /experience/37323/
+                - 'img "Фото - Экскурсия: \"Макси-тур по Кыргызстану: экскурсии и 3 дня похода\"" [ref=e1133]'
+                - generic [ref=e1134]: 11 дней
+                - img [ref=e1136]
+                - generic [ref=e1138]: авторский тур
+              - generic [ref=e1139]:
+                - link "Николай Николай" [ref=e1140] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/726323/
+                  - img "Николай" [ref=e1141]
+                  - text: Николай
+                - generic [ref=e1142]:
+                  - link "5,0" [ref=e1143] [cursor=pointer]:
+                    - /url: /experience/37323/#reviews
+                    - generic [ref=e1144]: 5,0
+                    - generic "5 баллов по 5 отзывам" [ref=e1145]:
+                      - generic [ref=e1146]:
+                        - img [ref=e1147]
+                        - img [ref=e1149]
+                        - img [ref=e1151]
+                        - img [ref=e1153]
+                        - img [ref=e1155]
+                      - generic [ref=e1157]:
+                        - img [ref=e1158]
+                        - img [ref=e1160]
+                        - img [ref=e1162]
+                        - img [ref=e1164]
+                        - img [ref=e1166]
+                  - link "5 отзывов" [ref=e1168] [cursor=pointer]:
+                    - /url: /experience/37323/#reviews
+              - 'link "Макси-тур по Кыргызстану: экскурсии и 3 дня похода Погулять по Бишкеку, познакомиться с культурой и насладиться первозданной природой" [ref=e1170] [cursor=pointer]':
+                - /url: /experience/37323/
+                - generic [ref=e1171]:
+                  - text: "Макси-тур по Кыргызстану: экскурсии и 3 дня похода"
+                  - paragraph [ref=e1172]: Погулять по Бишкеку, познакомиться с культурой и насладиться первозданной природой
+              - list [ref=e1173]:
+                - listitem [ref=e1174]:
+                  - link "4–14 июн" [ref=e1175] [cursor=pointer]:
+                    - /url: /experience/37323/#dates
+              - link "172 000 ₽ за одного" [ref=e1177] [cursor=pointer]:
+                - /url: /experience/37323/
+                - generic [ref=e1178]:
+                  - generic [ref=e1180]: 172 000 ₽
+                  - generic [ref=e1181]: за одного
+            - generic [ref=e1182]:
+              - 'link "Фото - Экскурсия: \"Шарм Востока: путешествие по Ташкенту, Самарканду, Гиждувану, Бухаре и Хиве\" скидка 15% 8 дней авторский тур" [ref=e1184] [cursor=pointer]':
+                - /url: /experience/49269/
+                - 'img "Фото - Экскурсия: \"Шарм Востока: путешествие по Ташкенту, Самарканду, Гиждувану, Бухаре и Хиве\"" [ref=e1186]'
+                - generic [ref=e1187]:
+                  - text: скидка
+                  - generic [ref=e1188]: 15%
+                - generic [ref=e1189]: 8 дней
+                - img [ref=e1191]
+                - generic [ref=e1193]: авторский тур
+              - generic [ref=e1194]:
+                - link "Пётр Пётр" [ref=e1195] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/1289262/
+                  - img "Пётр" [ref=e1196]
+                  - text: Пётр
+                - generic [ref=e1197]:
+                  - link "5,0" [ref=e1198] [cursor=pointer]:
+                    - /url: /experience/49269/#reviews
+                    - generic [ref=e1199]: 5,0
+                    - generic "5 баллов по 5 отзывам" [ref=e1200]:
+                      - generic [ref=e1201]:
+                        - img [ref=e1202]
+                        - img [ref=e1204]
+                        - img [ref=e1206]
+                        - img [ref=e1208]
+                        - img [ref=e1210]
+                      - generic [ref=e1212]:
+                        - img [ref=e1213]
+                        - img [ref=e1215]
+                        - img [ref=e1217]
+                        - img [ref=e1219]
+                        - img [ref=e1221]
+                  - link "5 отзывов" [ref=e1223] [cursor=pointer]:
+                    - /url: /experience/49269/#reviews
+              - 'link "Шарм Востока: путешествие по Ташкенту, Самарканду, Гиждувану, Бухаре и Хиве Проехать по маршруту Великого шёлкового пути и увидеть одну из самых длинных рек Средней Азии" [ref=e1225] [cursor=pointer]':
+                - /url: /experience/49269/
+                - generic [ref=e1226]:
+                  - text: "Шарм Востока: путешествие по Ташкенту, Самарканду, Гиждувану, Бухаре и Хиве"
+                  - paragraph [ref=e1227]: Проехать по маршруту Великого шёлкового пути и увидеть одну из самых длинных рек Средней Азии
+              - list [ref=e1228]:
+                - listitem [ref=e1229]:
+                  - link "20–27 мая" [ref=e1230] [cursor=pointer]:
+                    - /url: /experience/49269/#dates
+                - listitem [ref=e1231]:
+                  - link "22–29 мая" [ref=e1232] [cursor=pointer]:
+                    - /url: /experience/49269/#dates
+                - listitem [ref=e1233]:
+                  - link "23–30 мая" [ref=e1234] [cursor=pointer]:
+                    - /url: /experience/49269/#dates
+                - listitem [ref=e1235]:
+                  - link "..." [ref=e1236] [cursor=pointer]:
+                    - /url: /experience/49269/#dates
+              - link "$ 982 $ 835 за одного" [ref=e1238] [cursor=pointer]:
+                - /url: /experience/49269/
+                - generic [ref=e1239]:
+                  - generic [ref=e1240]: $ 982
+                  - generic [ref=e1242]: $ 835
+                  - generic [ref=e1243]: за одного
+            - generic [ref=e1244]:
+              - 'link "Фото - Экскурсия: \"Тур по городам Узбекистана и день в Чимганских горах: экскурсии и национальная кухня\" 5 дней авторский тур" [ref=e1246] [cursor=pointer]':
+                - /url: /experience/85466/
+                - 'img "Фото - Экскурсия: \"Тур по городам Узбекистана и день в Чимганских горах: экскурсии и национальная кухня\"" [ref=e1248]'
+                - generic [ref=e1249]: 5 дней
+                - img [ref=e1251]
+                - generic [ref=e1253]: авторский тур
+              - generic [ref=e1254]:
+                - link "Владимир Владимир" [ref=e1255] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/967485/
+                  - img "Владимир" [ref=e1256]
+                  - text: Владимир
+                - generic [ref=e1257]:
+                  - link "5,0" [ref=e1258] [cursor=pointer]:
+                    - /url: /experience/85466/#reviews
+                    - generic [ref=e1259]: 5,0
+                    - generic "5 баллов по 5 отзывам" [ref=e1260]:
+                      - generic [ref=e1261]:
+                        - img [ref=e1262]
+                        - img [ref=e1264]
+                        - img [ref=e1266]
+                        - img [ref=e1268]
+                        - img [ref=e1270]
+                      - generic [ref=e1272]:
+                        - img [ref=e1273]
+                        - img [ref=e1275]
+                        - img [ref=e1277]
+                        - img [ref=e1279]
+                        - img [ref=e1281]
+                  - link "5 отзывов" [ref=e1283] [cursor=pointer]:
+                    - /url: /experience/85466/#reviews
+              - 'link "Тур по городам Узбекистана и день в Чимганских горах: экскурсии и национальная кухня Попробовать разные варианты плова, увидеть древние мечети и медресе и полюбоваться вершинами" [ref=e1285] [cursor=pointer]':
+                - /url: /experience/85466/
+                - generic [ref=e1286]:
+                  - text: "Тур по городам Узбекистана и день в Чимганских горах: экскурсии и национальная кухня"
+                  - paragraph [ref=e1287]: Попробовать разные варианты плова, увидеть древние мечети и медресе и полюбоваться вершинами
+              - list [ref=e1288]:
+                - listitem [ref=e1289]:
+                  - link "17–21 мая" [ref=e1290] [cursor=pointer]:
+                    - /url: /experience/85466/#dates
+                - listitem [ref=e1291]:
+                  - link "19–23 мая" [ref=e1292] [cursor=pointer]:
+                    - /url: /experience/85466/#dates
+                - listitem [ref=e1293]:
+                  - link "24–28 мая" [ref=e1294] [cursor=pointer]:
+                    - /url: /experience/85466/#dates
+                - listitem [ref=e1295]:
+                  - link "..." [ref=e1296] [cursor=pointer]:
+                    - /url: /experience/85466/#dates
+              - link "$ 553 за одного" [ref=e1298] [cursor=pointer]:
+                - /url: /experience/85466/
+                - generic [ref=e1299]:
+                  - generic [ref=e1301]: $ 553
+                  - generic [ref=e1302]: за одного
+            - generic [ref=e1303]:
+              - 'link "Фото - Экскурсия: \"Палитра Узбекистана: Ташкент, Самарканд, Бухара и Хива с мастер-классом\" 6 дней авторский тур" [ref=e1305] [cursor=pointer]':
+                - /url: /experience/41141/
+                - 'img "Фото - Экскурсия: \"Палитра Узбекистана: Ташкент, Самарканд, Бухара и Хива с мастер-классом\"" [ref=e1307]'
+                - generic [ref=e1308]: 6 дней
+                - img [ref=e1310]
+                - generic [ref=e1312]: авторский тур
+              - generic [ref=e1313]:
+                - link "Владимир Владимир" [ref=e1314] [cursor=pointer]:
+                  - /url: https://experience.tripster.ru/guide/967485/
+                  - img "Владимир" [ref=e1315]
+                  - text: Владимир
+                - generic [ref=e1316]:
+                  - link "4,8" [ref=e1317] [cursor=pointer]:
+                    - /url: /experience/41141/#reviews
+                    - generic [ref=e1318]: 4,8
+                    - generic "4.8 балла по 71 отзыву" [ref=e1319]:
+                      - generic [ref=e1320]:
+                        - img [ref=e1321]
+                        - img [ref=e1323]
+                        - img [ref=e1325]
+                        - img [ref=e1327]
+                        - img [ref=e1329]
+                      - generic [ref=e1331]:
+                        - img [ref=e1332]
+                        - img [ref=e1334]
+                        - img [ref=e1336]
+                        - img [ref=e1338]
+                        - img [ref=e1340]
+                  - link "71 отзыв" [ref=e1342] [cursor=pointer]:
+                    - /url: /experience/41141/#reviews
+              - 'link "Палитра Узбекистана: Ташкент, Самарканд, Бухара и Хива с мастер-классом Почувствовать себя героем восточной сказки и увидеть, как выглядела Хива в 15 веке" [ref=e1344] [cursor=pointer]':
+                - /url: /experience/41141/
+                - generic [ref=e1345]:
+                  - text: "Палитра Узбекистана: Ташкент, Самарканд, Бухара и Хива с мастер-классом"
+                  - paragraph [ref=e1346]: Почувствовать себя героем восточной сказки и увидеть, как выглядела Хива в 15 веке
+              - list [ref=e1347]:
+                - listitem [ref=e1348]:
+                  - link "18–23 мая" [ref=e1349] [cursor=pointer]:
+                    - /url: /experience/41141/#dates
+                - listitem [ref=e1350]:
+                  - link "20–25 мая" [ref=e1351] [cursor=pointer]:
+                    - /url: /experience/41141/#dates
+                - listitem [ref=e1352]:
+                  - link "25–30 мая" [ref=e1353] [cursor=pointer]:
+                    - /url: /experience/41141/#dates
+                - listitem [ref=e1354]:
+                  - link "..." [ref=e1355] [cursor=pointer]:
+                    - /url: /experience/41141/#dates
+              - link "$ 660 за одного" [ref=e1357] [cursor=pointer]:
+                - /url: /experience/41141/
+                - generic [ref=e1358]:
+                  - generic [ref=e1360]: $ 660
+                  - generic [ref=e1361]: за одного
+        - generic [ref=e1364]:
+          - link "Полезные статьи" [ref=e1365] [cursor=pointer]:
+            - /url: /experience/Bishkek/articles/
+            - text: Полезные статьи
+            - img [ref=e1366]
+          - generic [ref=e1368]:
+            - generic [ref=e1369]:
+              - 'link "Кыргызстан: что посмотреть за 7 дней Красоты Иссык‑Куля, инопланетные каньоны и другие достопримечательности" [ref=e1370] [cursor=pointer]':
+                - /url: /articles/kyrgyzstan-chto-posmotret-za-7-dnej/
+                - generic [ref=e1371]: "Кыргызстан: что посмотреть за 7 дней"
+                - generic [ref=e1372]: Красоты Иссык‑Куля, инопланетные каньоны и другие достопримечательности
+              - 'link "Кыргызстан: что посмотреть за&nbsp;7&nbsp;дней" [ref=e1373] [cursor=pointer]':
+                - /url: /articles/kyrgyzstan-chto-posmotret-za-7-dnej/
+                - 'img "Кыргызстан: что посмотреть за&nbsp;7&nbsp;дней" [ref=e1375]'
+            - generic [ref=e1376]:
+              - link "Куда поехать в мае" [ref=e1377] [cursor=pointer]:
+                - /url: /articles/kuda-poehat-v-mae/
+                - generic [ref=e1378]: Куда поехать в мае
+              - link "Куда поехать в&nbsp;мае" [ref=e1379] [cursor=pointer]:
+                - /url: /articles/kuda-poehat-v-mae/
+                - img "Куда поехать в&nbsp;мае" [ref=e1380]
+            - generic [ref=e1381]:
+              - 'link "Кыргызстан: что посмотреть за 7 дней" [ref=e1382] [cursor=pointer]':
+                - /url: /articles/kirgiziya-chto-posmotret-za-7-dnej/
+                - generic [ref=e1383]: "Кыргызстан: что посмотреть за 7 дней"
+              - 'link "Кыргызстан: что посмотреть за&nbsp;7&nbsp;дней" [ref=e1384] [cursor=pointer]':
+                - /url: /articles/kirgiziya-chto-posmotret-za-7-dnej/
+                - 'img "Кыргызстан: что посмотреть за&nbsp;7&nbsp;дней" [ref=e1385]'
+            - generic [ref=e1386]:
+              - 'link "Горы Кыргызстана: где увидеть пики Тянь‑Шаня и Памира" [ref=e1387] [cursor=pointer]':
+                - /url: /articles/gory-kyrgyzstana/
+                - generic [ref=e1388]: "Горы Кыргызстана: где увидеть пики Тянь‑Шаня и Памира"
+              - 'link "Горы Кыргызстана: где увидеть пики Тянь‑Шаня и&nbsp;Памира" [ref=e1389] [cursor=pointer]':
+                - /url: /articles/gory-kyrgyzstana/
+                - 'img "Горы Кыргызстана: где увидеть пики Тянь‑Шаня и&nbsp;Памира" [ref=e1390]'
+      - generic [ref=e1391]:
+        - generic [ref=e1392]:
+          - generic [ref=e1393]:
+            - heading "Экскурсии и туры от экспертов Трипстера" [level=3] [ref=e1394]
+            - generic [ref=e1395]:
+              - text: Классные места, скидки и интересные события у вас в почте ·
+              - link "Пример письма" [ref=e1396] [cursor=pointer]:
+                - /url: https://experience-ireland.s3.amazonaws.com/email_examples/subscriptionEmailExample.html
+            - generic [ref=e1397]:
+              - generic [ref=e1398]:
+                - textbox "Эл. почта" [ref=e1400]
+                - button "Подписаться" [ref=e1401] [cursor=pointer]:
+                  - generic [ref=e1402]: Подписаться
+              - generic [ref=e1403]:
+                - text: Нажимая «Подписаться», вы даете
+                - link "согласие" [ref=e1404] [cursor=pointer]:
+                  - /url: /about/soglasie-na-reklamnuyu-i-informaczionnuyu-rassylku/
+                - text: на получение рекламных и информационных сообщений от Tripster в соответствии c
+                - link "условиями политики обработки персональных данных" [ref=e1405] [cursor=pointer]:
+                  - /url: /about/privacy_policy/
+                - text: Tripster
+          - generic:
+            - img "subscribe_footer"
+        - generic [ref=e1406]:
+          - generic [ref=e1407]:
+            - heading "Планируйте путешествие на ходу" [level=3] [ref=e1408]
+            - generic [ref=e1409]:
+              - text: Лучшие гиды по всему миру —
+              - text: в приложении Трипстера
+            - generic [ref=e1410]:
+              - img "Скачайте приложение Tripster для путешественников" [ref=e1412]
+              - link "Доступно в Google Play" [ref=e1413] [cursor=pointer]:
+                - /url: https://tripster.onelink.me/N4gN/4rswcj3g
+                - img [ref=e1414]
+                - generic [ref=e1416]:
+                  - text: Доступно
+                  - text: в Google Play
+              - link "Загрузить в App Store" [ref=e1417] [cursor=pointer]:
+                - /url: https://tripster.onelink.me/N4gN/4rswcj3g
+                - img [ref=e1418]
+                - generic [ref=e1421]:
+                  - text: Загрузить
+                  - text: в App Store
+          - generic:
+            - img "Снимок города в телефоне"
+      - generic [ref=e1424]:
+        - heading "Похожие предложения" [level=3] [ref=e1425]
+        - group [ref=e1426]:
+          - link "Лучшие count" [ref=e1427] [cursor=pointer]:
+            - /url: /tours/tajikistan/srednyaya-aziya-srednyaa-aziya/top/
+            - generic [ref=e1429]: Лучшие
+            - generic "count" [ref=e1430]: "70"
+          - link "Активные туры count" [ref=e1431] [cursor=pointer]:
+            - /url: /tours/tajikistan/srednyaya-aziya-srednyaa-aziya/aktivnye/
+            - generic [ref=e1433]: Активные туры
+            - generic "count" [ref=e1434]: "40"
+          - link "На праздники count" [ref=e1435] [cursor=pointer]:
+            - /url: /tours/tajikistan/srednyaya-aziya-srednyaa-aziya/na-prazdniki/
+            - generic [ref=e1437]: На праздники
+            - generic "count" [ref=e1438]: "40"
+  - generic [ref=e1441]:
+    - generic [ref=e1442]:
+      - navigation [ref=e1443]:
+        - link [ref=e1444] [cursor=pointer]:
+          - /url: https://t.me/tripsterofficial
+          - img [ref=e1445]
+        - link [ref=e1448] [cursor=pointer]:
+          - /url: https://vk.com/tripster_ru
+          - img [ref=e1449]
+        - link [ref=e1452] [cursor=pointer]:
+          - /url: https://dzen.ru/id/5dd518a76b888b11ecbd4f51
+          - img [ref=e1453]
+        - link [ref=e1456] [cursor=pointer]:
+          - /url: https://ok.ru/group/70000001233998
+          - img [ref=e1457]
+      - generic [ref=e1460]:
+        - text: Обзоры необычных мест по всему миру,
+        - text: новинки и скидки в наших соцсетях
+      - generic [ref=e1461]:
+        - link "Доступно в Google Play" [ref=e1462] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=ru.tripster.tripster
+          - generic [ref=e1463]:
+            - text: Доступно
+            - text: в Google Play
+          - img [ref=e1464]
+        - link "Загрузите в App Store" [ref=e1467] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/tripster/id1499356873
+          - generic [ref=e1468]:
+            - text: Загрузите
+            - text: в App Store
+          - img [ref=e1469]
+        - button [ref=e1474]:
+          - img [ref=e1475]
+      - generic [ref=e1478]:
+        - link "Экскурсии" [ref=e1479] [cursor=pointer]:
+          - /url: /
+        - link "Туры" [ref=e1480] [cursor=pointer]:
+          - /url: /tours/
+        - link "Журнал Трипстера" [ref=e1481] [cursor=pointer]:
+          - /url: /journal/
+        - link "Вакансии" [ref=e1482] [cursor=pointer]:
+          - /url: https://tripster.huntflow.io/
+        - link "О проекте" [ref=e1483] [cursor=pointer]:
+          - /url: /about/
+        - link "Юридические документы" [ref=e1484] [cursor=pointer]:
+          - /url: /about/terms
+      - generic [ref=e1485]: © 2013—2026, Flight Marketplace Admin, Bignut route Limited
+      - generic [ref=e1486]:
+        - img [ref=e1488]
+        - img [ref=e1492]
+        - img [ref=e1498]
+        - img [ref=e1506]
+        - img [ref=e1512]
+        - img [ref=e1520]
+        - img [ref=e1528]
+    - complementary [ref=e1536]:
+      - generic [ref=e1537]:
+        - generic [ref=e1538]: Путешественникам
+        - list [ref=e1539]:
+          - link "Частые вопросы" [ref=e1540] [cursor=pointer]:
+            - /url: /help_center/travelers/
+          - link "Безопасность платежей" [ref=e1541] [cursor=pointer]:
+            - /url: /about/secure_payments/
+          - link "Политика возврата" [ref=e1542] [cursor=pointer]:
+            - /url: /about/cancellation_policy/
+      - generic [ref=e1543]:
+        - generic [ref=e1544]: Гидам
+        - list [ref=e1545]:
+          - link "Стать гидом" [ref=e1546] [cursor=pointer]:
+            - /url: /locals/
+          - link "Помощь" [ref=e1547] [cursor=pointer]:
+            - /url: /help_center/guides/
+      - generic [ref=e1548]:
+        - generic [ref=e1549]: Партнёрам и турагентам
+        - list [ref=e1550]:
+          - link "Стать партнёром" [ref=e1551] [cursor=pointer]:
+            - /url: /partners/
+          - link "Регистрация для турагентов" [ref=e1552] [cursor=pointer]:
+            - /url: /partners/travelagents/
+          - link "Кабинет партнёра и турагента" [ref=e1553] [cursor=pointer]:
+            - /url: /partner-account/
+          - link "Справка" [ref=e1554] [cursor=pointer]:
+            - /url: https://experience.tripster.ru/help-center/partner/
+    - generic [ref=e1555]:
+      - generic [ref=e1556]: Поддержка 9–21 МСК
+      - list [ref=e1557]:
+        - listitem [ref=e1558]:
+          - link "Написать ВКонтакте" [ref=e1559] [cursor=pointer]:
+            - /url: https://vk.com/im?sel=-51519887
+            - img [ref=e1560]
+            - generic [ref=e1562]: Написать ВКонтакте
+        - listitem [ref=e1563]:
+          - button "Написать нам в чат" [ref=e1564] [cursor=pointer]:
+            - img [ref=e1565]
+            - generic [ref=e1567]: Написать нам в чат
+        - listitem [ref=e1568]:
+          - link "Написать в Max" [ref=e1569] [cursor=pointer]:
+            - /url: https://max.ru/id7840100571_bot
+            - img [ref=e1570]
+            - generic [ref=e1574]: Написать в Max
+        - listitem [ref=e1575]:
+          - link "+7 495 146-39-66" [ref=e1576] [cursor=pointer]:
+            - /url: tel:+74951463966
+            - img [ref=e1577]
+            - generic [ref=e1583]: +7 495 146-39-66
+        - listitem [ref=e1584]:
+          - link "+420 228 889 544" [ref=e1585] [cursor=pointer]:
+            - /url: tel:+420228889544
+            - img [ref=e1586]
+            - generic [ref=e1589]: +420 228 889 544
+        - listitem [ref=e1590]:
+          - link "support@tripster.ru" [ref=e1591] [cursor=pointer]:
+            - /url: mailto:support@tripster.ru
+            - img [ref=e1592]
+            - generic [ref=e1594]: support@tripster.ru
+      - button "Написать отзыв о сайте" [ref=e1595]:
+        - text: Написать
+        - text: отзыв о сайте
+        - img [ref=e1596]
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]: Cookies for your comfort
+      - text: We use mandatory cookies to load the site correctly and optional cookies to improve Tripster and marketing. By authorising their use, you agree to our
+      - link "cookie policy" [ref=e59] [cursor=pointer]:
+        - /url: /about/cookie
+    - generic [ref=e60]:
+      - button "Accept all" [ref=e61] [cursor=pointer]:
+        - generic [ref=e63]: Accept all
+      - button "Open settings" [ref=e64] [cursor=pointer]:
+        - generic [ref=e66]: Open settings
+      - generic [ref=e68]:
+        - radio "Ру" [ref=e69]
+        - generic [ref=e70]: Ру
+        - radio "En" [checked] [ref=e71]
+        - generic [ref=e72]: En
