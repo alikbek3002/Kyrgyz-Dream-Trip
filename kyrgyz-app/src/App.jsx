@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Masthead from './components/Masthead'
 import Hero from './components/Hero'
 import Tours from './components/Tours'
+import CustomTour from './components/CustomTour'
 import Footer from './components/Footer'
 import Shield from './components/Shield'
 
@@ -33,6 +34,7 @@ export default function App() {
         season={season} setSeason={setSeason}
       />
       <Tours lang={lang} query={query} filter={filter} duration={duration} season={season} />
+      <CustomTour lang={lang} />
       <Footer lang={lang} />
     </>
   )
