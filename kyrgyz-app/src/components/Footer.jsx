@@ -23,7 +23,7 @@ export default function Footer({ lang }) {
               <h5>{lang === 'en' ? 'Tour' : 'Тур'}</h5>
               <a href="#journeys">{lang === 'en' ? 'All Colors of Kyrgyzstan' : 'Все краски Кыргызстана'}</a>
               <a href="#journeys">{lang === 'en' ? 'Programme · 6 days' : 'Программа · 6 дней'}</a>
-              <a href="#journeys">{lang === 'en' ? 'From 80 000 ₽ per person' : 'От 80 000 ₽ за человека'}</a>
+              <a href="#journeys">{lang === 'en' ? 'From $1 100 per person' : 'От $1 100 за человека'}</a>
             </div>
             <div>
               <h5>{lang === 'en' ? 'Contact' : 'Связаться'}</h5>
